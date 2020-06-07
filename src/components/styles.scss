@@ -9,6 +9,7 @@ $clr-primary: #183152;
 $clr-secondary: #244979;
 $clr-white-darker: #c4d7ed;
 $clr-white: #eef4fb;
+$clr-dark: #333333;
 $desktop-bp: 1024px;
 $tablet-bp: 1023px;
 $mobile-bp: 480px;
@@ -30,6 +31,7 @@ body {
     h1 {
       font-family: $font-heading;
       font-size: 36px;
+      margin-bottom: 3.75vh;
     }
     h2 {
       font-family: $font-subhead;
@@ -41,6 +43,7 @@ body {
       line-height: 1.4;
     }
     a {
+      cursor: pointer;
       font-family: $font-body;
       font-size: 18px;
     }
@@ -53,10 +56,12 @@ body {
         margin: 0;
         margin-left: 0.75vmax;
         border-bottom: 1px solid $clr-white-darker;
+        transition: color 0.2s ease-in-out;
       }
     }
     a:hover {
       color: lighten($clr-secondary, 25%);
+      cursor: pointer;
       p {
         color: lighten($clr-secondary, 25%);
         border-bottom: 1px solid lighten($clr-secondary, 50%);
@@ -65,15 +70,7 @@ body {
     a:nth-of-type(even) {
       margin-left: 1.75vmax;
     }
-    //font color
-    h1,
-    p,
-    a {
-      color: $clr-white;
-    }
-    h2 {
-      color: $clr-white-darker;
-    }
+
     .layout-left,
     .layout-right {
       //desktop
@@ -86,6 +83,16 @@ body {
       width: 40vw;
       background: $clr-primary;
       //border: 1px solid red; //debug
+
+      //font color
+      h1,
+      p,
+      a {
+        color: $clr-white;
+      }
+      h2 {
+        color: $clr-white-darker;
+      }
       .margins {
         display: flex;
         flex-direction: column;
@@ -105,11 +112,20 @@ body {
         justify-content: flex-end;
         div {
           width: 70%;
-          margin-top: 0.5vmax;
+          margin-top: 0.75vmax;
           justify-content: flex-start;
+          p {
+            font-size: 16px;
+          }
           footer {
             display: flex;
             flex-direction: column;
+            a {
+              p,
+              i {
+                font-size: 14px;
+              }
+            }
             nav {
               margin-top: -0.75vmax;
               display: flex;
@@ -122,12 +138,38 @@ body {
     .layout-right {
       align-items: flex-start;
       width: 60vw;
+      background: $clr-white;
       //border: 1px solid blue; //debug
+      //font color
+      h1,
+      p,
+      a {
+        color: $clr-primary;
+        h2 {
+          color: $clr-primary;
+          border-bottom: 1px solid $clr-secondary;
+          transition: color 0.2s ease-in-out;
+        }
+      }
+      a:hover {
+        h2 {
+          color: lighten($clr-primary, 25%);
+        }
+      }
+      //font color end
       .margins {
         height: 75vh;
         width: 70%;
+        max-width: 70%;
         margin-left: 5vmax;
         //border: 5px solid purple; //debug
+      }
+      //layout right portfolio
+      .items-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 3.75vmax;
+        //border: 1px solid red; //debug
       }
     }
 
@@ -148,10 +190,10 @@ body {
         }
       }
       .layout-right {
-        border: 3px solid green; //debug
+        //border: 3px solid green; //debug
         .margins {
           width: 90%;
-          border: 2px solid red; //debug
+          //border: 2px solid red; //debug
         }
       }
     }
@@ -186,14 +228,14 @@ body {
           justify-content: center;
           div {
             width: 90%;
-            margin-top: 0.5vmax;
+            margin-top: 1.5vmax;
             justify-content: flex-start;
             //border: 1px solid yellow; //debug
             footer {
               display: flex;
               flex-direction: column;
               nav {
-                margin-top: -0.75vmax;
+                margin-top: -1.5vmax;
                 display: flex;
                 align-items: center;
               }
@@ -210,8 +252,9 @@ body {
         justify-content: center;
         //border: 1px solid blue; //debug
         .margins {
-          margin-left: 0;
+          margin: 3.75vh 0;
           width: 90%;
+          max-width: 90%;
           border: 2px solid yellow; //debug
         }
       }
@@ -232,11 +275,33 @@ body {
 
 //header
 header {
+  //logo
   img {
-    width: 6.25vmax;
+    width: 5rem;
   }
   nav {
     display: flex;
     align-items: center;
+  }
+}
+
+//index.js
+@media (min-width: $desktop-bp) {
+  //on desktop, hide mobile showcase
+  .showcaseMobile {
+    display: none;
+    //border: 1px solid green; //debug
+  }
+}
+@media (max-width: $mobile-bp) {
+  //on mobile, hide desktop showcase
+  .showcaseDesktop {
+    display: none;
+  }
+}
+@media (max-width: $tablet-bp) {
+  //on tablet, hide desktop showcase
+  .showcaseDesktop {
+    display: none;
   }
 }

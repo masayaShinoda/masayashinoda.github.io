@@ -20,6 +20,7 @@ body .parent {
 body .parent h1 {
   font-family: "Jacques Francois", serif;
   font-size: 36px;
+  margin-bottom: 3.75vh;
 }
 
 body .parent h2 {
@@ -34,6 +35,7 @@ body .parent p {
 }
 
 body .parent a {
+  cursor: pointer;
   font-family: "Marcellus", serif;
   font-size: 18px;
 }
@@ -52,10 +54,13 @@ body .parent a p {
   margin: 0;
   margin-left: 0.75vmax;
   border-bottom: 1px solid #c4d7ed;
+  -webkit-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
 }
 
 body .parent a:hover {
   color: #5186cb;
+  cursor: pointer;
 }
 
 body .parent a:hover p {
@@ -65,16 +70,6 @@ body .parent a:hover p {
 
 body .parent a:nth-of-type(even) {
   margin-left: 1.75vmax;
-}
-
-body .parent h1,
-body .parent p,
-body .parent a {
-  color: #eef4fb;
-}
-
-body .parent h2 {
-  color: #c4d7ed;
 }
 
 body .parent .layout-left,
@@ -97,6 +92,16 @@ body .parent .layout-left {
           align-items: flex-end;
   width: 40vw;
   background: #183152;
+}
+
+body .parent .layout-left h1,
+body .parent .layout-left p,
+body .parent .layout-left a {
+  color: #eef4fb;
+}
+
+body .parent .layout-left h2 {
+  color: #c4d7ed;
 }
 
 body .parent .layout-left .margins {
@@ -130,10 +135,14 @@ body .parent .layout-left .margins-bottom {
 
 body .parent .layout-left .margins-bottom div {
   width: 70%;
-  margin-top: 0.5vmax;
+  margin-top: 0.75vmax;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+}
+
+body .parent .layout-left .margins-bottom div p {
+  font-size: 16px;
 }
 
 body .parent .layout-left .margins-bottom div footer {
@@ -144,6 +153,11 @@ body .parent .layout-left .margins-bottom div footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+body .parent .layout-left .margins-bottom div footer a p,
+body .parent .layout-left .margins-bottom div footer a i {
+  font-size: 14px;
 }
 
 body .parent .layout-left .margins-bottom div footer nav {
@@ -161,12 +175,44 @@ body .parent .layout-right {
       -ms-flex-align: start;
           align-items: flex-start;
   width: 60vw;
+  background: #eef4fb;
+}
+
+body .parent .layout-right h1,
+body .parent .layout-right p,
+body .parent .layout-right a {
+  color: #183152;
+}
+
+body .parent .layout-right h1 h2,
+body .parent .layout-right p h2,
+body .parent .layout-right a h2 {
+  color: #183152;
+  border-bottom: 1px solid #244979;
+  -webkit-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+}
+
+body .parent .layout-right a:hover h2 {
+  color: #356cb5;
 }
 
 body .parent .layout-right .margins {
   height: 75vh;
   width: 70%;
+  max-width: 70%;
   margin-left: 5vmax;
+}
+
+body .parent .layout-right .items-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 3.75vmax;
 }
 
 @media (max-width: 1023px) {
@@ -179,12 +225,8 @@ body .parent .layout-right .margins {
   body .parent .layout-left .margins-bottom div {
     width: 90%;
   }
-  body .parent .layout-right {
-    border: 3px solid green;
-  }
   body .parent .layout-right .margins {
     width: 90%;
-    border: 2px solid red;
   }
 }
 
@@ -227,7 +269,7 @@ body .parent .layout-right .margins {
   }
   body .parent .layout-left .margins-bottom div {
     width: 90%;
-    margin-top: 0.5vmax;
+    margin-top: 1.5vmax;
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
@@ -242,7 +284,7 @@ body .parent .layout-right .margins {
             flex-direction: column;
   }
   body .parent .layout-left .margins-bottom div footer nav {
-    margin-top: -0.75vmax;
+    margin-top: -1.5vmax;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -260,8 +302,9 @@ body .parent .layout-right .margins {
             justify-content: center;
   }
   body .parent .layout-right .margins {
-    margin-left: 0;
+    margin: 3.75vh 0;
     width: 90%;
+    max-width: 90%;
     border: 2px solid yellow;
   }
 }
@@ -276,7 +319,7 @@ body .parent .layout-right .margins {
 }
 
 header img {
-  width: 6.25vmax;
+  width: 5rem;
 }
 
 header nav {
@@ -286,5 +329,23 @@ header nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+@media (min-width: 1024px) {
+  .showcaseMobile {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .showcaseDesktop {
+    display: none;
+  }
+}
+
+@media (max-width: 1023px) {
+  .showcaseDesktop {
+    display: none;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
