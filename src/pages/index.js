@@ -41,6 +41,7 @@ const IndexPage = () => {
           <h2>Personal blog</h2>
         </Link>
         <p>Blog site built with GatsbyJS with articles written in markdown.</p>
+        <h2>Features</h2>
         <ul>
           <li>Typography focused</li>
           <li>
