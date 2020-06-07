@@ -10,6 +10,8 @@ import "../components/styles.css"
 //images assets import
 import wisJournalDesktop from "../images/wis-journal-desktop.jpg"
 import wisJournalMobile from "../images/wis-journal-mobile.jpg"
+import masayaBlogDesktop from "../images/masayablog-desktop.png"
+import masayaBlogMobile from "../images/masayablog-mobile.png"
 
 const IndexPage = () => {
   return (
@@ -24,19 +26,32 @@ const IndexPage = () => {
           A student newspaper with functionality for email/Google account
           sign-in which allows people to post content by themselves.
         </p>
+        <h2>Features</h2>
+        <ul>
+          <li>Easy sign-up and login available at /admin</li>
+          <li>Simple and organized newspaper-style layout.</li>
+          <li>Night mode</li>
+          <li>Fully responsive</li>
+        </ul>
         <img className="showcaseDesktop" src={wisJournalDesktop}></img>
         <img className="showcaseMobile" src={wisJournalMobile}></img>
       </div>
       <div className="item-container">
         <Link to="https://breadpodcast.com">
-          <h2>breadpodcast.com</h2>
+          <h2>Personal blog</h2>
         </Link>
-        <p>
-          A student newspaper with functionality for email/Google account
-          sign-in which allows people to post content by themselves.
-        </p>
-        <img className="showcaseDesktop" src={wisJournalDesktop}></img>
-        <img className="showcaseMobile" src={wisJournalMobile}></img>
+        <p>Blog site built with GatsbyJS with articles written in markdown.</p>
+        <ul>
+          <li>Typography focused</li>
+          <li>
+            Good SEO (around 4th-5th result on the first page of Google search
+            with certain keywords)
+          </li>
+          <li>Night mode</li>
+          <li>Fully responsive</li>
+        </ul>
+        <img className="showcaseDesktop" src={masayaBlogDesktop}></img>
+        <img className="showcaseMobile" src={masayaBlogMobile}></img>
       </div>
     </Layout>
   )
