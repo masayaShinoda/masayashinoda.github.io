@@ -16,9 +16,20 @@ const IndexPage = () => {
     <Layout>
       <SEO title="Home" />
       <h1>Portfolio</h1>
-      <div className="items-container">
+      <div className="item-container">
         <Link to="https://wis-journal.com">
           <h2>wis-journal.com</h2>
+        </Link>
+        <p>
+          A student newspaper with functionality for email/Google account
+          sign-in which allows people to post content by themselves.
+        </p>
+        <img className="showcaseDesktop" src={wisJournalDesktop}></img>
+        <img className="showcaseMobile" src={wisJournalMobile}></img>
+      </div>
+      <div className="item-container">
+        <Link to="https://breadpodcast.com">
+          <h2>breadpodcast.com</h2>
         </Link>
         <p>
           A student newspaper with functionality for email/Google account

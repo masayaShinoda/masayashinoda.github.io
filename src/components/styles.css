@@ -14,7 +14,7 @@ body .parent {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 body .parent h1 {
@@ -91,6 +91,10 @@ body .parent .layout-left {
       -ms-flex-align: end;
           align-items: flex-end;
   width: 40vw;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  right: 40vw;
   background: #183152;
 }
 
@@ -176,6 +180,7 @@ body .parent .layout-right {
           align-items: flex-start;
   width: 60vw;
   background: #eef4fb;
+  margin-left: 40vw;
 }
 
 body .parent .layout-right h1,
@@ -198,21 +203,10 @@ body .parent .layout-right a:hover h2 {
 }
 
 body .parent .layout-right .margins {
-  height: 75vh;
+  margin: 12.5vh 0;
   width: 70%;
   max-width: 70%;
   margin-left: 5vmax;
-}
-
-body .parent .layout-right .items-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  margin-top: 3.75vmax;
 }
 
 @media (max-width: 1023px) {
@@ -242,6 +236,7 @@ body .parent .layout-right .items-container {
     min-height: 100vh;
     max-height: 100vh;
     background: #183152;
+    position: relative;
   }
   body .parent .layout-left .margins {
     display: -webkit-box;
@@ -300,12 +295,12 @@ body .parent .layout-right .items-container {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    margin: 0;
   }
   body .parent .layout-right .margins {
     margin: 3.75vh 0;
     width: 90%;
     max-width: 90%;
-    border: 2px solid yellow;
   }
 }
 
@@ -346,6 +341,23 @@ header nav {
 @media (max-width: 1023px) {
   .showcaseDesktop {
     display: none;
+  }
+}
+
+.item-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 4.25vmax;
+}
+
+@media (max-width: 480px) {
+  .item-container {
+    margin-top: 6.25vmax;
   }
 }
 /*# sourceMappingURL=styles.css.map */

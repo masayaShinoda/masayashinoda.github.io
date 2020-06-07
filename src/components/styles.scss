@@ -26,7 +26,7 @@ html {
 body {
   .parent {
     display: flex;
-    height: 100vh; //debug
+    min-height: 100vh; //debug
     //fonts
     h1 {
       font-family: $font-heading;
@@ -81,7 +81,12 @@ body {
     .layout-left {
       align-items: flex-end;
       width: 40vw;
+      height: 100vh;
+      position: fixed;
+      left: 0;
+      right: 40vw;
       background: $clr-primary;
+
       //border: 1px solid red; //debug
 
       //font color
@@ -138,7 +143,9 @@ body {
     .layout-right {
       align-items: flex-start;
       width: 60vw;
+
       background: $clr-white;
+      margin-left: 40vw;
       //border: 1px solid blue; //debug
       //font color
       h1,
@@ -158,18 +165,12 @@ body {
       }
       //font color end
       .margins {
-        height: 75vh;
+        margin: 12.5vh 0;
+        //height: 75vh;
         width: 70%;
         max-width: 70%;
         margin-left: 5vmax;
         //border: 5px solid purple; //debug
-      }
-      //layout right portfolio
-      .items-container {
-        display: flex;
-        flex-direction: column;
-        margin-top: 3.75vmax;
-        //border: 1px solid red; //debug
       }
     }
 
@@ -209,6 +210,7 @@ body {
         min-height: 100vh;
         max-height: 100vh;
         background: $clr-primary;
+        position: relative;
         //border: 1px solid red; //debug
         .margins {
           display: flex;
@@ -250,12 +252,13 @@ body {
         width: 100vw;
         align-items: center;
         justify-content: center;
+        margin: 0;
         //border: 1px solid blue; //debug
         .margins {
           margin: 3.75vh 0;
           width: 90%;
           max-width: 90%;
-          border: 2px solid yellow; //debug
+          //border: 2px solid cyan; //debug
         }
       }
       //mobile layout right end
@@ -303,5 +306,18 @@ header {
   //on tablet, hide desktop showcase
   .showcaseDesktop {
     display: none;
+  }
+}
+
+//layout right portfolio
+.item-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4.25vmax;
+  //border: 1px solid red; //debug
+}
+@media (max-width: $mobile-bp) {
+  .item-container {
+    margin-top: 6.25vmax;
   }
 }
