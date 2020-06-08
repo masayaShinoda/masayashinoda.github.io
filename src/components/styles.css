@@ -25,13 +25,14 @@ body .parent h1 {
 
 body .parent h2 {
   font-family: "Martel", serif;
-  font-size: 24px;
+  font-size: 21px;
 }
 
 body .parent h3 {
   font-family: "Martel", serif;
   font-weight: 800;
   font-size: 18px;
+  margin-bottom: 0.8em;
 }
 
 body .parent p {
@@ -193,13 +194,13 @@ body .parent .layout-right {
 body .parent .layout-right h1,
 body .parent .layout-right p,
 body .parent .layout-right a {
-  color: #183152;
+  color: #333333;
 }
 
 body .parent .layout-right h1 h2,
 body .parent .layout-right p h2,
 body .parent .layout-right a h2 {
-  color: #183152;
+  color: #244979;
   border-bottom: 1px solid #244979;
   -webkit-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;

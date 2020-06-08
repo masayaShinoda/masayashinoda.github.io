@@ -37,11 +37,11 @@ const Header = ({ siteTitle }) => {
         some graphic designs.
       </p>
       <nav>
-        <Link to="/">
+        <Link to="/portfolio#portfolio">
           <FontAwesomeIcon icon={faUser} />
           <p>Portfolio</p>
         </Link>
-        <Link to="/contact">
+        <Link to="/contact#contact">
           <FontAwesomeIcon icon={faAddressCard} />
           <p>Contact</p>
         </Link>

@@ -35,12 +35,13 @@ body {
     }
     h2 {
       font-family: $font-subhead;
-      font-size: 24px;
+      font-size: 21px;
     }
     h3 {
       font-family: $font-subhead;
       font-weight: 800;
       font-size: 18px;
+      margin-bottom: 0.8em;
     }
     p {
       font-family: $font-body;
@@ -157,9 +158,9 @@ body {
       h1,
       p,
       a {
-        color: $clr-primary;
+        color: $clr-dark;
         h2 {
-          color: $clr-primary;
+          color: $clr-secondary;
           border-bottom: 1px solid $clr-secondary;
           transition: color 0.2s ease-in-out;
         }
