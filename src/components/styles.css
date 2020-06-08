@@ -426,4 +426,36 @@ form button {
 form button:hover {
   background: #5186cb;
 }
+
+.social-link-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  margin-bottom: 1.25vmax;
+  margin-right: 1.75vmax;
+}
+
+.social-link-container a {
+  margin: 0;
+  padding: 0.5em 1.1em;
+}
+
+.social-link-container a p {
+  margin-left: 1.25vmin;
+  border: 0;
+}
+
+.social-link-container .tele-link:hover {
+  background: #2093cf;
+}
+
+.social-link-container .ig-link:hover {
+  background: #c0247f;
+}
 /*# sourceMappingURL=styles.css.map */

@@ -174,6 +174,7 @@ body {
         }
       }
       //font color end
+
       .margins {
         margin: 12.5vh 0;
         //height: 75vh;
@@ -319,7 +320,7 @@ header {
   }
 }
 
-//layout right portfolio
+//layout right portfolio start
 .item-container {
   display: flex;
   flex-direction: column;
@@ -331,6 +332,7 @@ header {
     margin-top: 6.25vmax;
   }
 }
+//layout right portfolio end
 
 //myform.js
 form {
@@ -379,5 +381,28 @@ form {
   }
   button:hover {
     background: lighten($clr-secondary, 25%);
+  }
+}
+
+//contact.js
+.social-link-container {
+  display: flex;
+  align-items: center;
+  max-width: fit-content;
+  margin-bottom: 1.25vmax;
+  margin-right: 1.75vmax;
+  a {
+    margin: 0;
+    padding: 0.5em 1.1em;
+    p {
+      margin-left: 1.25vmin;
+      border: 0;
+    }
+  }
+  .tele-link:hover {
+    background: darken(#2aa1de, 5%);
+  }
+  .ig-link:hover {
+    background: darken(#d5288d, 5%);
   }
 }
