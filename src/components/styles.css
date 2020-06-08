@@ -191,6 +191,10 @@ body .parent .layout-right {
   margin-left: 40vw;
 }
 
+body .parent .layout-right h1 {
+  padding-top: 3.25vmax;
+}
+
 body .parent .layout-right h1,
 body .parent .layout-right p,
 body .parent .layout-right a {

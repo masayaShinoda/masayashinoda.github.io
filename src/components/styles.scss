@@ -150,10 +150,13 @@ body {
     .layout-right {
       align-items: flex-start;
       width: 60vw;
-
       background: $clr-white;
       margin-left: 40vw;
       //border: 1px solid blue; //debug
+      //fonts
+      h1 {
+        padding-top: 3.25vmax;
+      }
       //font color
       h1,
       p,
