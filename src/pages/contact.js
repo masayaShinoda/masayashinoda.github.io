@@ -7,6 +7,7 @@ import MyForm from "../components/myform"
 const ContactPage = () => {
   return (
     <Layout>
+      <h1>Contact me:</h1>
       <MyForm></MyForm>
     </Layout>
   )
