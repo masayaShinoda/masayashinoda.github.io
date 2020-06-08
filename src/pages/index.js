@@ -26,22 +26,30 @@ const IndexPage = () => {
           A student newspaper with functionality for email/Google account
           sign-in which allows people to post content by themselves.
         </p>
-        <h2>Features</h2>
+        <h3>Features:</h3>
         <ul>
           <li>Easy sign-up and login available at /admin</li>
           <li>Simple and organized newspaper-style layout.</li>
           <li>Night mode</li>
           <li>Fully responsive</li>
         </ul>
-        <img className="showcaseDesktop" src={wisJournalDesktop}></img>
-        <img className="showcaseMobile" src={wisJournalMobile}></img>
+        <img
+          className="showcaseDesktop"
+          src={wisJournalDesktop}
+          alt="wis-journal.com portfolio item showcase"
+        ></img>
+        <img
+          className="showcaseMobile"
+          src={wisJournalMobile}
+          alt="wis-journal.com portfolio item showcase"
+        ></img>
       </div>
       <div className="item-container">
         <Link to="https://breadpodcast.com">
           <h2>Personal blog</h2>
         </Link>
         <p>Blog site built with GatsbyJS with articles written in markdown.</p>
-        <h2>Features</h2>
+        <h3>Features:</h3>
         <ul>
           <li>Typography focused</li>
           <li>
@@ -51,8 +59,16 @@ const IndexPage = () => {
           <li>Night mode</li>
           <li>Fully responsive</li>
         </ul>
-        <img className="showcaseDesktop" src={masayaBlogDesktop}></img>
-        <img className="showcaseMobile" src={masayaBlogMobile}></img>
+        <img
+          className="showcaseDesktop"
+          src={masayaBlogDesktop}
+          alt="Personal blog portfolio item showcase"
+        ></img>
+        <img
+          className="showcaseMobile"
+          src={masayaBlogMobile}
+          alt="Personal blog portfolio item showcase"
+        ></img>
       </div>
     </Layout>
   )

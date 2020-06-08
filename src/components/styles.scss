@@ -35,7 +35,12 @@ body {
     }
     h2 {
       font-family: $font-subhead;
-      font-size: 21px;
+      font-size: 24px;
+    }
+    h3 {
+      font-family: $font-subhead;
+      font-weight: 800;
+      font-size: 18px;
     }
     p {
       font-family: $font-body;
@@ -95,7 +100,8 @@ body {
       a {
         color: $clr-white;
       }
-      h2 {
+      h2,
+      h3 {
         color: $clr-white-darker;
       }
       .margins {
@@ -319,5 +325,55 @@ header {
 @media (max-width: $mobile-bp) {
   .item-container {
     margin-top: 6.25vmax;
+  }
+}
+
+//myform.js
+form {
+  label {
+    p {
+      margin: 0.5em 0;
+    }
+  }
+  input {
+    padding: 0.5em 1.1em;
+    margin-bottom: 1.25vmax;
+    border: 0;
+  }
+  input[type="email"] {
+    min-width: 65%;
+    max-width: 100%;
+  }
+  @media (max-width: $mobile-bp) {
+    input[type="email"] {
+      width: 100%;
+    }
+  }
+  @media (max-width: $tablet-bp) {
+    input[type="email"] {
+      width: 100%;
+    }
+  }
+  textarea {
+    min-height: 25vh;
+    max-width: 100%;
+    resize: vertical;
+    border: 0;
+    padding: 0.5em 1.1em;
+    margin-bottom: 2.5vmax;
+    // max-width: fit-content;
+  }
+  button {
+    padding: 0.5em 1.1em;
+    background: $clr-secondary;
+    color: $clr-white;
+    border-style: solid;
+    cursor: pointer;
+    transition: background 0.2s ease-in-out;
+    border: 0;
+    max-width: fit-content;
+  }
+  button:hover {
+    background: lighten($clr-secondary, 25%);
   }
 }

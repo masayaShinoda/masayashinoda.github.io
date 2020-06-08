@@ -27,7 +27,9 @@ const Header = ({ siteTitle }) => {
   `)
   return (
     <header>
-      <img src={logo} alt="logo"></img>
+      <Link to="/">
+        <img src={logo} alt="logo"></img>
+      </Link>
       <h1>{data.site.siteMetadata.author}</h1>
       <h2>Web & Graphics Design</h2>
       <p>
@@ -39,7 +41,7 @@ const Header = ({ siteTitle }) => {
           <FontAwesomeIcon icon={faUser} />
           <p>Portfolio</p>
         </Link>
-        <Link to="/">
+        <Link to="/contact">
           <FontAwesomeIcon icon={faAddressCard} />
           <p>Contact</p>
         </Link>

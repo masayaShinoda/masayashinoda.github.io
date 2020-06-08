@@ -25,7 +25,13 @@ body .parent h1 {
 
 body .parent h2 {
   font-family: "Martel", serif;
-  font-size: 21px;
+  font-size: 24px;
+}
+
+body .parent h3 {
+  font-family: "Martel", serif;
+  font-weight: 800;
+  font-size: 18px;
 }
 
 body .parent p {
@@ -104,7 +110,8 @@ body .parent .layout-left a {
   color: #eef4fb;
 }
 
-body .parent .layout-left h2 {
+body .parent .layout-left h2,
+body .parent .layout-left h3 {
   color: #c4d7ed;
 }
 
@@ -359,5 +366,59 @@ header nav {
   .item-container {
     margin-top: 6.25vmax;
   }
+}
+
+form label p {
+  margin: 0.5em 0;
+}
+
+form input {
+  padding: 0.5em 1.1em;
+  margin-bottom: 1.25vmax;
+  border: 0;
+}
+
+form input[type="email"] {
+  min-width: 65%;
+  max-width: 100%;
+}
+
+@media (max-width: 480px) {
+  form input[type="email"] {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1023px) {
+  form input[type="email"] {
+    width: 100%;
+  }
+}
+
+form textarea {
+  min-height: 25vh;
+  max-width: 100%;
+  resize: vertical;
+  border: 0;
+  padding: 0.5em 1.1em;
+  margin-bottom: 2.5vmax;
+}
+
+form button {
+  padding: 0.5em 1.1em;
+  background: #244979;
+  color: #eef4fb;
+  border-style: solid;
+  cursor: pointer;
+  -webkit-transition: background 0.2s ease-in-out;
+  transition: background 0.2s ease-in-out;
+  border: 0;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+}
+
+form button:hover {
+  background: #5186cb;
 }
 /*# sourceMappingURL=styles.css.map */
