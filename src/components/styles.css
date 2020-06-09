@@ -346,6 +346,10 @@ header nav {
 .showcaseDesktop {
   -webkit-box-shadow: 5px 4px 14px rgba(196, 215, 237, 0.5);
           box-shadow: 5px 4px 14px rgba(196, 215, 237, 0.5);
+  -webkit-transition: 0.2s -webkit-box-shadow ease-in-out;
+  transition: 0.2s -webkit-box-shadow ease-in-out;
+  transition: 0.2s box-shadow ease-in-out;
+  transition: 0.2s box-shadow ease-in-out, 0.2s -webkit-box-shadow ease-in-out;
 }
 
 .showcaseMobile:hover,
@@ -445,6 +449,16 @@ form button:hover {
 form input,
 form textarea {
   border: 1px solid #c4d7ed;
+  -webkit-transition: 0.4s -webkit-box-shadow ease-in-out;
+  transition: 0.4s -webkit-box-shadow ease-in-out;
+  transition: 0.4s box-shadow ease-in-out;
+  transition: 0.4s box-shadow ease-in-out, 0.4s -webkit-box-shadow ease-in-out;
+}
+
+form input:focus,
+form textarea:focus {
+  -webkit-box-shadow: 5px 4px 14px #bad6f7;
+          box-shadow: 5px 4px 14px #bad6f7;
 }
 
 .social-link-container {
@@ -472,11 +486,17 @@ form textarea {
   border: 0;
 }
 
+.social-link-container .tele-link,
+.social-link-container .ig-link {
+  -webkit-transition: 0.2s background ease-in-out;
+  transition: 0.2s background ease-in-out;
+}
+
 .social-link-container .tele-link:hover {
-  background: #2093cf;
+  background: #0babfd;
 }
 
 .social-link-container .ig-link:hover {
-  background: #c0247f;
+  background: #f50892;
 }
 /*# sourceMappingURL=styles.css.map */

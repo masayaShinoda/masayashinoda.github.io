@@ -307,6 +307,7 @@ header {
 .showcaseMobile,
 .showcaseDesktop {
   box-shadow: 5px 4px 14px transparentize($clr-white-darker, 0.5);
+  transition: 0.2s box-shadow ease-in-out;
 }
 .showcaseMobile:hover,
 .showcaseDesktop:hover {
@@ -396,6 +397,11 @@ form {
   input,
   textarea {
     border: 1px solid $clr-white-darker;
+    transition: 0.4s box-shadow ease-in-out;
+  }
+  input:focus,
+  textarea:focus {
+    box-shadow: 5px 4px 14px saturate($clr-white-darker, 25%);
   }
 }
 
@@ -407,6 +413,7 @@ form {
   margin-bottom: 1.25vmax;
   margin-right: 1.75vmax;
   border: 1px solid $clr-white-darker;
+
   a {
     margin: 0;
     padding: 0.5em 1.1em;
@@ -415,10 +422,14 @@ form {
       border: 0;
     }
   }
+  .tele-link,
+  .ig-link {
+    transition: 0.2s background ease-in-out;
+  }
   .tele-link:hover {
-    background: darken(#2aa1de, 5%);
+    background: saturate(#2aa1de, 25%);
   }
   .ig-link:hover {
-    background: darken(#d5288d, 5%);
+    background: saturate(#d5288d, 25%);
   }
 }
