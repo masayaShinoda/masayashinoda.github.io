@@ -221,6 +221,10 @@ body .parent .layout-right .margins {
   margin-left: 5vmax;
 }
 
+body .parent .layout-right ul li {
+  line-height: 1.24;
+}
+
 @media (max-width: 1023px) {
   body .parent .layout-left .margins {
     width: 90%;
@@ -379,8 +383,7 @@ form label p {
 
 form input {
   padding: 0.5em 1.1em;
-  margin-bottom: 1.25vmax;
-  border: 0;
+  margin-bottom: 0.5em;
 }
 
 form input[type="email"] {
@@ -427,6 +430,11 @@ form button:hover {
   background: #5186cb;
 }
 
+form input,
+form textarea {
+  border: 1px solid #c4d7ed;
+}
+
 .social-link-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -439,6 +447,7 @@ form button:hover {
   max-width: fit-content;
   margin-bottom: 1.25vmax;
   margin-right: 1.75vmax;
+  border: 1px solid #c4d7ed;
 }
 
 .social-link-container a {

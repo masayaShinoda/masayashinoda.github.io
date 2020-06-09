@@ -183,6 +183,10 @@ body {
         margin-left: 5vmax;
         //border: 5px solid purple; //debug
       }
+
+      ul li {
+        line-height: 1.24;
+      }
     }
 
     //tablet layouts
@@ -343,8 +347,7 @@ form {
   }
   input {
     padding: 0.5em 1.1em;
-    margin-bottom: 1.25vmax;
-    border: 0;
+    margin-bottom: 0.5em;
   }
   input[type="email"] {
     min-width: 65%;
@@ -382,6 +385,10 @@ form {
   button:hover {
     background: lighten($clr-secondary, 25%);
   }
+  input,
+  textarea {
+    border: 1px solid $clr-white-darker;
+  }
 }
 
 //contact.js
@@ -391,6 +398,7 @@ form {
   max-width: fit-content;
   margin-bottom: 1.25vmax;
   margin-right: 1.75vmax;
+  border: 1px solid $clr-white-darker;
   a {
     margin: 0;
     padding: 0.5em 1.1em;
