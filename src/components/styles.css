@@ -342,6 +342,18 @@ header nav {
           align-items: center;
 }
 
+.showcaseMobile,
+.showcaseDesktop {
+  -webkit-box-shadow: 5px 4px 14px rgba(196, 215, 237, 0.5);
+          box-shadow: 5px 4px 14px rgba(196, 215, 237, 0.5);
+}
+
+.showcaseMobile:hover,
+.showcaseDesktop:hover {
+  -webkit-box-shadow: 5px 4px 14px #bad6f7;
+          box-shadow: 5px 4px 14px #bad6f7;
+}
+
 @media (min-width: 1024px) {
   .showcaseMobile {
     display: none;

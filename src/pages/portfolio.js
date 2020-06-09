@@ -20,7 +20,7 @@ const PortfolioPage = () => {
       <SEO title="Portfolio" />
       <h1 id="portfolio">Portfolio</h1>
       <div className="item-container">
-        <Link to="https://wis-journal.com">
+        <Link to="https://wis-journal.com" style={{ margin: `0` }}>
           <h2>wis-journal.com</h2>
         </Link>
         <p>
@@ -34,19 +34,23 @@ const PortfolioPage = () => {
           <li>Night mode</li>
           <li>Fully responsive</li>
         </ul>
-        <img
-          className="showcaseDesktop"
-          src={wisJournalDesktop}
-          alt="wis-journal.com portfolio item showcase"
-        ></img>
-        <img
-          className="showcaseMobile"
-          src={wisJournalMobile}
-          alt="wis-journal.com portfolio item showcase"
-        ></img>
+        <Link to="https://wis-journal.com" style={{ margin: `0` }}>
+          <img
+            className="showcaseDesktop"
+            src={wisJournalDesktop}
+            alt="wis-journal.com portfolio item showcase"
+          ></img>
+        </Link>
+        <Link to="https://wis-journal.com" style={{ margin: `0` }}>
+          <img
+            className="showcaseMobile"
+            src={wisJournalMobile}
+            alt="wis-journal.com portfolio item showcase"
+          ></img>
+        </Link>
       </div>
       <div className="item-container">
-        <Link to="https://breadpodcast.com">
+        <Link to="https://masayablog.netlify.app" style={{ margin: `0` }}>
           <h2>Personal blog</h2>
         </Link>
         <p>Blog site built with GatsbyJS with articles written in markdown.</p>
@@ -60,16 +64,20 @@ const PortfolioPage = () => {
           <li>Night mode</li>
           <li>Fully responsive</li>
         </ul>
-        <img
-          className="showcaseDesktop"
-          src={masayaBlogDesktop}
-          alt="Personal blog portfolio item showcase"
-        ></img>
-        <img
-          className="showcaseMobile"
-          src={masayaBlogMobile}
-          alt="Personal blog portfolio item showcase"
-        ></img>
+        <Link to="https://masayablog.netlify.app" style={{ margin: `0` }}>
+          <img
+            className="showcaseDesktop"
+            src={masayaBlogDesktop}
+            alt="Personal blog portfolio item showcase"
+          ></img>
+        </Link>
+        <Link to="https://masayablog.netlify.app" style={{ margin: `0` }}>
+          <img
+            className="showcaseMobile"
+            src={masayaBlogMobile}
+            alt="Personal blog portfolio item showcase"
+          ></img>
+        </Link>
       </div>
     </Layout>
   )

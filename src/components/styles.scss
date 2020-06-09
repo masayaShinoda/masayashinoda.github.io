@@ -303,7 +303,15 @@ header {
   }
 }
 
-//index.js
+//portfolio.js
+.showcaseMobile,
+.showcaseDesktop {
+  box-shadow: 5px 4px 14px transparentize($clr-white-darker, 0.5);
+}
+.showcaseMobile:hover,
+.showcaseDesktop:hover {
+  box-shadow: 5px 4px 14px saturate($clr-white-darker, 25%);
+}
 @media (min-width: $desktop-bp) {
   //on desktop, hide mobile showcase
   .showcaseMobile {
