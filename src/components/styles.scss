@@ -270,10 +270,15 @@ body {
         margin: 0;
         //border: 1px solid blue; //debug
         .margins {
-          margin: 3.75vh 0;
+          margin: 0;
           width: 90%;
           max-width: 90%;
           //border: 2px solid cyan; //debug
+        }
+        @media (max-width: $mobile-bp) {
+          .margins {
+            margin: 4.25vh 0;
+          }
         }
       }
       //mobile layout right end
