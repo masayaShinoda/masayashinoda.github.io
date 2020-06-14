@@ -170,6 +170,7 @@ body .parent .layout-left .margins-bottom div footer {
 body .parent .layout-left .margins-bottom div footer a p,
 body .parent .layout-left .margins-bottom div footer a i {
   font-size: 14px;
+  border: 0;
 }
 
 body .parent .layout-left .margins-bottom div footer nav {
