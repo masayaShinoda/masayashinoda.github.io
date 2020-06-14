@@ -275,12 +275,15 @@ body {
           width: 90%;
           max-width: 90%;
           //border: 2px solid cyan; //debug
-        }
-        @media (max-width: $mobile-bp) {
-          .margins {
-            margin: 4.25vh 0;
+          h1 {
+            margin-top: 4.25vh;
           }
         }
+        // @media (max-width: $mobile-bp) {
+        //   .margins {
+        //     margin: 4.25vh 0;
+        //   }
+        // }
       }
       //mobile layout right end
     }

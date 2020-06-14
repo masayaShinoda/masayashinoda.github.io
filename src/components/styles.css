@@ -319,11 +319,8 @@ body .parent .layout-right ul li {
     width: 90%;
     max-width: 90%;
   }
-}
-
-@media (max-width: 480px) and (max-width: 480px) {
-  body .parent .layout-right .margins {
-    margin: 4.25vh 0;
+  body .parent .layout-right .margins h1 {
+    margin-top: 4.25vh;
   }
 }
 
