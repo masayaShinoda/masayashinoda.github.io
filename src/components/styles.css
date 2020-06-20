@@ -577,13 +577,13 @@ form textarea:focus {
     top: 100vh;
     left: 0;
     min-width: 100vw;
-    border: 1px solid red;
+    height: 50vh;
   }
   .upperCallBackgroundImage {
     position: absolute;
     top: 100vh;
     left: 0;
-    border: 1px solid green;
+    height: 50vh;
   }
 }
 /*# sourceMappingURL=styles.css.map */

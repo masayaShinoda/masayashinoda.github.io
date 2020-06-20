@@ -505,12 +505,14 @@ form {
     top: 100vh;
     left: 0;
     min-width: 100vw;
-    border: 1px solid red;
+    height: 50vh;
+    // border: 1px solid red;
   }
   .upperCallBackgroundImage {
     position: absolute;
     top: 100vh;
     left: 0;
-    border: 1px solid green;
+    // border: 1px solid green;
+    height: 50vh;
   }
 }
