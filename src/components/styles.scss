@@ -497,3 +497,20 @@ form {
   background: rgba(0, 0, 0, 0.25);
   transition: background 0.2s ease-in-out;
 }
+//upper call mobile
+@media (max-width: $mobile-bp) {
+  .upperCall {
+    position: absolute;
+    display: flex;
+    top: 100vh;
+    left: 0;
+    min-width: 100vw;
+    border: 1px solid red;
+  }
+  .upperCallBackgroundImage {
+    position: absolute;
+    top: 100vh;
+    left: 0;
+    border: 1px solid green;
+  }
+}
