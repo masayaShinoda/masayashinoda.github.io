@@ -442,3 +442,63 @@ form {
     background: saturate(#d5288d, 25%);
   }
 }
+
+.upperCall,
+.lowerCall {
+  width: 60%;
+  top: 0;
+  left: 40vw;
+  position: fixed;
+}
+.upperCallBackgroundImage {
+  background-image: url("../images/upper-call-image.psd.png");
+  background-size: cover;
+  max-width: 105%;
+  height: 65vh;
+  right: 0;
+  top: 0;
+  left: 40vw;
+  position: fixed;
+}
+.upperCall {
+  // border: 1px solid red; //debug
+  height: 100vh;
+  background-size: cover;
+  max-width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background 0.2s ease-in-out;
+  button {
+    padding: 2vmin 3vmin;
+    background: 0;
+    border: 0;
+    // background: rgba(0, 0, 0, 0.25);
+    background: $clr-secondary;
+    color: #fcfcfc;
+    font-family: $font-body;
+    font-size: 1.1em;
+    font-weight: 800;
+    //border: #fcfcfc solid 2px;
+    outline: #fcfcfc 2px solid;
+    outline-offset: 0.8em;
+    transition: background 0.2s ease-out;
+
+    // border-radius: 0.8em;
+  }
+  button:hover {
+    cursor: pointer;
+    background: lighten($clr-primary, 15%);
+
+    transition: background 0.2s ease-in;
+  }
+}
+.upperCall:hover {
+  background: rgba(0, 0, 0, 0.25);
+  transition: background 0.2s ease-in-out;
+}
+.lowerCall {
+  top: 65vh;
+  border: 1px solid green; //debug
+  height: 35vh;
+}

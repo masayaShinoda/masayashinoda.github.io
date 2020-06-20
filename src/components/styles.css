@@ -503,4 +503,74 @@ form textarea:focus {
 .social-link-container .ig-link:hover {
   background: #f50892;
 }
+
+.upperCall,
+.lowerCall {
+  width: 60%;
+  top: 0;
+  left: 40vw;
+  position: fixed;
+}
+
+.upperCallBackgroundImage {
+  background-image: url("../images/upper-call-image.psd.png");
+  background-size: cover;
+  max-width: 105%;
+  height: 65vh;
+  right: 0;
+  top: 0;
+  left: 40vw;
+  position: fixed;
+}
+
+.upperCall {
+  height: 100vh;
+  background-size: cover;
+  max-width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: background 0.2s ease-in-out;
+  transition: background 0.2s ease-in-out;
+}
+
+.upperCall button {
+  padding: 2vmin 3vmin;
+  background: 0;
+  border: 0;
+  background: #244979;
+  color: #fcfcfc;
+  font-family: "Marcellus", serif;
+  font-size: 1.1em;
+  font-weight: 800;
+  outline: #fcfcfc 2px solid;
+  outline-offset: 0.8em;
+  -webkit-transition: background 0.2s ease-out;
+  transition: background 0.2s ease-out;
+}
+
+.upperCall button:hover {
+  cursor: pointer;
+  background: #29548d;
+  -webkit-transition: background 0.2s ease-in;
+  transition: background 0.2s ease-in;
+}
+
+.upperCall:hover {
+  background: rgba(0, 0, 0, 0.25);
+  -webkit-transition: background 0.2s ease-in-out;
+  transition: background 0.2s ease-in-out;
+}
+
+.lowerCall {
+  top: 65vh;
+  border: 1px solid green;
+  height: 35vh;
+}
 /*# sourceMappingURL=styles.css.map */

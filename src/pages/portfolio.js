@@ -13,6 +13,8 @@ import wisJournalDesktop from "../images/wis-journal-desktop.jpg"
 import wisJournalMobile from "../images/wis-journal-mobile.jpg"
 import masayaBlogDesktop from "../images/masayablog-desktop.png"
 import masayaBlogMobile from "../images/masayablog-mobile.png"
+import masayaPhotoDesktop from "../images/masayaphoto-desktop.jpg"
+import masayaPhotoMobile from "../images/masayaphoto-mobile.jpg"
 
 const PortfolioPage = () => {
   return (
@@ -75,6 +77,32 @@ const PortfolioPage = () => {
           <img
             className="showcaseMobile"
             src={masayaBlogMobile}
+            alt="Personal blog portfolio item showcase"
+          ></img>
+        </Link>
+      </div>
+      <div className="item-container">
+        <Link to="https://masayaphoto.netlify.app" style={{ margin: `0` }}>
+          <h2>Photography portfolio</h2>
+        </Link>
+        <p>Personal photography showcase website.</p>
+        <h3>Features:</h3>
+        <ul>
+          <li>Fast</li>
+          <li>Gallery style zoom</li>
+          <li>Fully responsive</li>
+        </ul>
+        <Link to="https://masayaphoto.netlify.app" style={{ margin: `0` }}>
+          <img
+            className="showcaseDesktop"
+            src={masayaPhotoDesktop}
+            alt="Personal blog portfolio item showcase"
+          ></img>
+        </Link>
+        <Link to="https://masayaphoto.netlify.app" style={{ margin: `0` }}>
+          <img
+            className="showcaseMobile"
+            src={masayaPhotoMobile}
             alt="Personal blog portfolio item showcase"
           ></img>
         </Link>
