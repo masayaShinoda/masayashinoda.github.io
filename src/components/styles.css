@@ -513,10 +513,10 @@ form textarea:focus {
 }
 
 .upperCallBackgroundImage {
-  background-image: url("../images/upper-call-image.psd.png");
+  background-image: url("../images/homepage-image.jpg");
   background-size: cover;
-  max-width: 105%;
-  height: 65vh;
+  max-width: 100%;
+  height: 100vh;
   right: 0;
   top: 0;
   left: 40vw;
@@ -566,11 +566,5 @@ form textarea:focus {
   background: rgba(0, 0, 0, 0.25);
   -webkit-transition: background 0.2s ease-in-out;
   transition: background 0.2s ease-in-out;
-}
-
-.lowerCall {
-  top: 65vh;
-  border: 1px solid green;
-  height: 35vh;
 }
 /*# sourceMappingURL=styles.css.map */

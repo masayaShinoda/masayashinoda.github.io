@@ -88,7 +88,7 @@ const PortfolioPage = () => {
         <p>Personal photography showcase website.</p>
         <h3>Features:</h3>
         <ul>
-          <li>Fast</li>
+          <li>Fast loading</li>
           <li>Gallery style zoom</li>
           <li>Fully responsive</li>
         </ul>

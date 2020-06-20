@@ -9,9 +9,10 @@ const calltoaction = () => {
     <div>
       <div className="upperCallBackgroundImage"></div>
       <div className="upperCall">
-        <button>See my work</button>
+        <Link to="/portfolio">
+          <button>See my work</button>
+        </Link>
       </div>
-      <div className="lowerCall"></div>
     </div>
   )
 }
