@@ -9,7 +9,7 @@ const calltoaction = () => {
     <div>
       <div className="upperCallBackgroundImage"></div>
       <div className="upperCall">
-        <Link to="/portfolio">
+        <Link to="/portfolio#portfolio">
           <button>See my work</button>
         </Link>
       </div>
