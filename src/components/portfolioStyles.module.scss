@@ -1,0 +1,103 @@
+//import
+@import url("https://fonts.googleapis.com/css2?family=Jacques+Francois&family=Marcellus&family=Martel:wght@400;600;700;900&display=swap");
+
+//vars
+$font-heading: "Jacques Francois", serif;
+$font-subhead: "Martel", serif;
+$font-body: "Marcellus", serif;
+$clr-primary: #183152;
+$clr-secondary: #244979;
+$clr-white-darker: #c4d7ed;
+$clr-white: #eef4fb;
+$clr-dark: #333333;
+$desktop-bp: 1024px;
+$tablet-bp: 1023px;
+$mobile-bp: 480px;
+
+.layout-right {
+  margin-left: 40vw;
+  width: 60vw;
+  .margins {
+    // background: url("../images/portfoliopage-image.png");
+    // background-position: center;
+    // background-size: cover;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    // border: 2px solid red;
+    margin: 0 !important;
+    padding: 0;
+    animation-name: portfFade;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    // border: 1px solid red;
+    @keyframes portfFade {
+      0% {
+        opacity: 0;
+      }
+    }
+    .portfUpperCall,
+    .portfLowerCall {
+      width: 100%;
+      height: 50vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      transition: background 0.2s ease-in-out;
+      button {
+        padding: 2vmin 3vmin;
+        background: 0;
+        border: 0;
+        // background: rgba(0, 0, 0, 0.25);
+        background: $clr-secondary;
+        color: #fcfcfc;
+        font-family: $font-body;
+        font-size: 1.1em;
+        font-weight: 800;
+        //border: #fcfcfc solid 2px;
+        outline: #fcfcfc 2px solid;
+        outline-offset: 0.8em;
+        transition: background 0.2s ease-out;
+
+        // border-radius: 0.8em;
+      }
+      button:hover {
+        cursor: pointer;
+        background: lighten($clr-primary, 15%);
+        transition: background 0.2s ease-in;
+      }
+    }
+    .portfUpperCall {
+      // border: 1px solid red; //debug
+      background: rgba(0, 0, 0, 0.125);
+    }
+    .portfUpperCallBg {
+      background-image: url("../images/showcase-chosen.jpg");
+      background-size: cover;
+      max-width: 100%;
+      height: 50vh;
+      right: 0;
+      top: 0;
+      left: 40vw;
+      position: fixed;
+      z-index: -5;
+    }
+    .portfLowerCall {
+      // border: 1px solid green; //debug
+      background: rgba(0, 0, 0, 0.125);
+    }
+    .portfLowerCallBg {
+      background-image: url("../images/masayablog-desktop.png");
+      background-size: cover;
+      max-width: 100%;
+      height: 50vh;
+      right: 0;
+      top: 50vh;
+      left: 40vw;
+      position: fixed;
+      z-index: -5;
+    }
+  }
+}

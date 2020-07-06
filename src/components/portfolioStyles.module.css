@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Jacques+Francois&family=Marcellus&family=Martel:wght@400;600;700;900&display=swap");
+.layout-right {
+  margin-left: 40vw;
+  width: 60vw;
+}
+
+.layout-right .margins {
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 100%;
+  max-height: 100%;
+  margin: 0 !important;
+  padding: 0;
+  -webkit-animation-name: portfFade;
+          animation-name: portfFade;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes portfFade {
+  0% {
+    opacity: 0;
+  }
+}
+
+@keyframes portfFade {
+  0% {
+    opacity: 0;
+  }
+}
+
+.layout-right .margins .portfUpperCall,
+.layout-right .margins .portfLowerCall {
+  width: 100%;
+  height: 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: background 0.2s ease-in-out;
+  transition: background 0.2s ease-in-out;
+}
+
+.layout-right .margins .portfUpperCall button,
+.layout-right .margins .portfLowerCall button {
+  padding: 2vmin 3vmin;
+  background: 0;
+  border: 0;
+  background: #244979;
+  color: #fcfcfc;
+  font-family: "Marcellus", serif;
+  font-size: 1.1em;
+  font-weight: 800;
+  outline: #fcfcfc 2px solid;
+  outline-offset: 0.8em;
+  -webkit-transition: background 0.2s ease-out;
+  transition: background 0.2s ease-out;
+}
+
+.layout-right .margins .portfUpperCall button:hover,
+.layout-right .margins .portfLowerCall button:hover {
+  cursor: pointer;
+  background: #29548d;
+  -webkit-transition: background 0.2s ease-in;
+  transition: background 0.2s ease-in;
+}
+
+.layout-right .margins .portfUpperCall {
+  background: rgba(0, 0, 0, 0.125);
+}
+
+.layout-right .margins .portfUpperCallBg {
+  background-image: url("../images/showcase-chosen.jpg");
+  background-size: cover;
+  max-width: 100%;
+  height: 50vh;
+  right: 0;
+  top: 0;
+  left: 40vw;
+  position: fixed;
+  z-index: -5;
+}
+
+.layout-right .margins .portfLowerCall {
+  background: rgba(0, 0, 0, 0.125);
+}
+
+.layout-right .margins .portfLowerCallBg {
+  background-image: url("../images/masayablog-desktop.png");
+  background-size: cover;
+  max-width: 100%;
+  height: 50vh;
+  right: 0;
+  top: 50vh;
+  left: 40vw;
+  position: fixed;
+  z-index: -5;
+}
+/*# sourceMappingURL=portfolioStyles.module.css.map */
