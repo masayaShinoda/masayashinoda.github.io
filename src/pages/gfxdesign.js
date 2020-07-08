@@ -2,7 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import GfxDesign from "../components/GfxDesign"
+import GfxDesign from "../components/gfxdesign"
 
 import "../components/styles.css"
 
