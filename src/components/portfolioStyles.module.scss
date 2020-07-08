@@ -101,3 +101,44 @@ $mobile-bp: 480px;
     }
   }
 }
+
+@media (max-width: $mobile-bp) {
+  .layout-right {
+    margin: 0;
+
+    width: 100vw;
+    border: 2px solid red; //debug
+  }
+  .portfUpperCall {
+    // border: 1px solid red; //debug
+    background: rgba(0, 0, 0, 0.125);
+  }
+  .portfUpperCallBg {
+    background-image: url("../images/showcase-chosen.jpg");
+    background-size: cover;
+    max-width: 100%;
+    height: 50vh;
+    left: 0;
+    right: 0;
+    top: 100vh;
+    position: absolute;
+    z-index: -5;
+    border: 1px solid green; //debug
+  }
+  .portfLowerCall {
+    // border: 1px solid green; //debug
+    background: rgba(0, 0, 0, 0.125);
+  }
+  .portfLowerCallBg {
+    background-image: url("../images/masayablog-desktop.png");
+    background-size: cover;
+    max-width: 100%;
+    height: 50vh;
+    left: 0;
+    right: 0;
+    top: 150vh;
+    position: absolute;
+    z-index: -5;
+    border: 1px solid blue;
+  }
+}

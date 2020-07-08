@@ -107,4 +107,42 @@
   position: fixed;
   z-index: -5;
 }
+
+@media (max-width: 480px) {
+  .layout-right {
+    margin: 0;
+    width: 100vw;
+    border: 2px solid red;
+  }
+  .portfUpperCall {
+    background: rgba(0, 0, 0, 0.125);
+  }
+  .portfUpperCallBg {
+    background-image: url("../images/showcase-chosen.jpg");
+    background-size: cover;
+    max-width: 100%;
+    height: 50vh;
+    left: 0;
+    right: 0;
+    top: 100vh;
+    position: absolute;
+    z-index: -5;
+    border: 1px solid green;
+  }
+  .portfLowerCall {
+    background: rgba(0, 0, 0, 0.125);
+  }
+  .portfLowerCallBg {
+    background-image: url("../images/masayablog-desktop.png");
+    background-size: cover;
+    max-width: 100%;
+    height: 50vh;
+    left: 0;
+    right: 0;
+    top: 150vh;
+    position: absolute;
+    z-index: -5;
+    border: 1px solid blue;
+  }
+}
 /*# sourceMappingURL=portfolioStyles.module.css.map */

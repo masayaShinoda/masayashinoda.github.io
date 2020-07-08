@@ -18,8 +18,10 @@ const WebDev = () => {
           Digital and print design work for local yogurt and drinks shop in
           Phnom Penh, Cambodia.
         </p>
-        <h3>Works include:</h3>
+        <p>Works include:</p>
+        <h3>Social media content</h3>
         <img src={baristaHiring}></img>
+        <p></p>
       </div>
     </>
   )
