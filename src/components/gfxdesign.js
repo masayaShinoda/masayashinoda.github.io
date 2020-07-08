@@ -20,15 +20,15 @@ const WebDev = () => {
       <div className="item-container">
         <h2>Yomie's Rice X Yogurt Cambodia</h2>
         <p>
-          A student newspaper with functionality for email/Google account
-          sign-in which allows people to post content by themselves.
+          Digital and print design work for local yogurt shop in Phnom Penh,
+          Cambodia.
         </p>
-        <h3>Features:</h3>
+        <h3>Wokrs include:</h3>
         <ul>
-          <li>Easy sign-up and login available at /admin</li>
-          <li>Simple and organized newspaper-style layout.</li>
-          <li>Night mode</li>
-          <li>Fully responsive</li>
+          {/* <li>Social media content</li>
+          <li>I-stand banner</li>
+          <li>Menu</li>
+          <li>Business card</li> */}
         </ul>
         <Link to="https://wis-journal.com" style={{ margin: `0` }}>
           <img
