@@ -53,6 +53,26 @@ body {
       font-family: $font-body;
       font-size: 18px;
     }
+    //fonts mobile
+    @media (max-width: $mobile-bp) {
+      h1 {
+        font-size: 24px;
+        margin-bottom: 3.75vh;
+      }
+      h2 {
+        font-size: 18px;
+      }
+      h3 {
+        font-size: 14px;
+        margin-bottom: 0.8em;
+      }
+      p {
+        font-size: 14px;
+      }
+      a {
+        font-size: 14px;
+      }
+    }
     //link
     a {
       text-decoration: none;
@@ -126,9 +146,6 @@ body {
           width: 70%;
           margin-top: 0.75vmax;
           justify-content: flex-start;
-          p {
-            font-size: 16px;
-          }
           footer {
             display: flex;
             flex-direction: column;

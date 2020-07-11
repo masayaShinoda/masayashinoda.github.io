@@ -53,11 +53,11 @@ const Layout = ({ children }) => {
               <div>
                 <p>You might be interested in my other sites:</p>
                 <nav>
-                  <Link to="https://masayaphoto.netlify.app">
+                  <Link to="https://photos.masayashida.xyz">
                     <FontAwesomeIcon icon={faCamera} />
                     <p>Photography</p>
                   </Link>
-                  <Link to="https://masayablog.netlify.app">
+                  <Link to="https://blog.masayashida.xyz">
                     <FontAwesomeIcon icon={faBlog} />
                     <p>Blog</p>
                   </Link>
