@@ -14,6 +14,10 @@ $desktop-bp: 1024px;
 $tablet-bp: 1023px;
 $mobile-bp: 480px;
 
+.item-header {
+  margin-top: 2.5vh;
+}
+
 .layout-right {
   margin-left: 40vw;
   width: 60vw;
@@ -107,7 +111,7 @@ $mobile-bp: 480px;
     margin: 0;
 
     width: 100vw;
-    border: 2px solid red; //debug
+    //border: 2px solid red; //debug
   }
   .portfUpperCall {
     // border: 1px solid red; //debug

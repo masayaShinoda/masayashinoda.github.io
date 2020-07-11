@@ -3,7 +3,7 @@ module.exports = {
     title: `Masaya Shida`,
     description: `Web & graphics designer based in Phnom Penh, Cambodia.`,
     author: `Masaya Shinoda`,
-    siteUrl: `https://masayashinoda.github.io`,
+    siteUrl: `https://masayashida.xyz`,
     keywords: [
       `Masaya Shida`,
       `masayashinoda`,
