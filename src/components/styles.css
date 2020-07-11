@@ -49,21 +49,21 @@ body .parent a {
 
 @media (max-width: 480px) {
   body .parent h1 {
-    font-size: 24px;
+    font-size: 28px;
     margin-bottom: 3.75vh;
   }
   body .parent h2 {
-    font-size: 18px;
+    font-size: 21px;
   }
   body .parent h3 {
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 0.8em;
   }
   body .parent p {
-    font-size: 14px;
+    font-size: 16px;
   }
   body .parent a {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 

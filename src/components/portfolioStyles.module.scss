@@ -111,7 +111,6 @@ $mobile-bp: 480px;
     margin: 0;
 
     width: 100vw;
-    //border: 2px solid red; //debug
   }
   .portfUpperCall {
     // border: 1px solid red; //debug
@@ -121,13 +120,16 @@ $mobile-bp: 480px;
     background-image: url("../images/showcase-chosen.jpg");
     background-size: cover;
     background-position: center;
+    margin: 0 !important;
+    width: 100vw;
     max-width: 100%;
     height: 50vh;
+    margin-top: 150vh;
     left: 0 !important;
-    right: 0;
     top: 100vh !important;
-    position: absolute;
-    z-index: -5;
+    // bottom: 50vh !important;
+    z-index: -8;
+    margin-top: 100vh;
     // border: 1px solid green; //debug
   }
   .portfLowerCall {
@@ -138,13 +140,16 @@ $mobile-bp: 480px;
     background-image: url("../images/masayablog-desktop.png");
     background-size: cover;
     background-position: center;
+    margin: 0;
+    width: 100vw;
     max-width: 100%;
     height: 50vh;
+    top: 100vh;
     left: 0 !important;
-    right: 0;
     top: 150vh !important;
-    position: absolute;
-    z-index: -5;
+    // bottom: 0 !important;
+    z-index: -8;
     // border: 1px solid blue;
   }
+  //border: 2px solid red; //debug
 }
