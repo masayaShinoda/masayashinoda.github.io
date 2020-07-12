@@ -16,8 +16,8 @@ const PortfolioPage = () => {
   return (
     <PortfLayout>
       <SEO title="Portfolio" />
-      <div className={portfStyles.portfUpperCallBg} id="portfolio"></div>
-      <div className={portfStyles.portfUpperCall}>
+      <div className={portfStyles.portfUpperCallBg}></div>
+      <div className={portfStyles.portfUpperCall} id="portfolio">
         <Link to="/gfxdesign#portfolio">
           <button>Graphic Design</button>
         </Link>
