@@ -53,14 +53,14 @@ const Layout = ({ children }) => {
               <div>
                 <p>You might be interested in my other sites:</p>
                 <nav>
-                  <Link to="https://photos.masayashida.xyz">
+                  <a href="https://photos.masayashida.xyz">
                     <FontAwesomeIcon icon={faCamera} />
                     <p>Photography</p>
-                  </Link>
-                  <Link to="https://blog.masayashida.xyz">
+                  </a>
+                  <a href="https://blog.masayashida.xyz">
                     <FontAwesomeIcon icon={faBlog} />
                     <p>Blog</p>
-                  </Link>
+                  </a>
                 </nav>
               </div>
             </footer>
