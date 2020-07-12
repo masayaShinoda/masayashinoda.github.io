@@ -131,8 +131,8 @@
     margin-top: 150vh;
     left: 0 !important;
     top: 100vh !important;
-    z-index: -8;
-    margin-top: 100vh;
+    position: absolute;
+    z-index: -5;
   }
   .portfLowerCall {
     background: rgba(0, 0, 0, 0.125);
@@ -148,7 +148,7 @@
     top: 100vh;
     left: 0 !important;
     top: 150vh !important;
-    z-index: -8;
+    z-index: -5;
   }
 }
 /*# sourceMappingURL=portfolioStyles.module.css.map */

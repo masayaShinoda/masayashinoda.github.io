@@ -127,9 +127,10 @@ $mobile-bp: 480px;
     margin-top: 150vh;
     left: 0 !important;
     top: 100vh !important;
+    position: absolute;
     // bottom: 50vh !important;
-    z-index: -8;
-    margin-top: 100vh;
+    z-index: -5;
+    // margin-top: 100vh;
     // border: 1px solid green; //debug
   }
   .portfLowerCall {
@@ -147,8 +148,9 @@ $mobile-bp: 480px;
     top: 100vh;
     left: 0 !important;
     top: 150vh !important;
+
     // bottom: 0 !important;
-    z-index: -8;
+    z-index: -5;
     // border: 1px solid blue;
   }
   //border: 2px solid red; //debug

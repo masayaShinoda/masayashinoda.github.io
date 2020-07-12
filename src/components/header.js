@@ -37,7 +37,7 @@ const Header = ({ siteTitle }) => {
         some graphic designs.
       </p>
       <nav>
-        <Link to="/portfolio">
+        <Link to="/portfolio#portfolio">
           <FontAwesomeIcon icon={faUser} />
           <p>Portfolio</p>
         </Link>
