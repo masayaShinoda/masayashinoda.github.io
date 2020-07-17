@@ -15,7 +15,9 @@ import showcaseBusinessCard from "../images/showcase-business-card.jpg"
 import tShirtHanging from "../images/black-t-shirt-showcase.jpg"
 import stickerShowcase from "../images/sticker-showcase.jpg"
 import gLvnFbCover from "../images/g-lvn-fb-cover.jpg"
-import tShirtBack from "../images/flower-on-fabric.jpg"
+import shirtBack from "../images/flower-on-fabric.jpg"
+import mTShirtFront from "../images/m-soulmate.jpg"
+import fTShirtFront from "../images/f-soulmate-black.jpg"
 
 const WebDev = () => {
   return (
@@ -49,6 +51,8 @@ const WebDev = () => {
         <h3>Social media content</h3>
         <img src={gLvnFbCover} alt="G-LVN social media cover"></img>
         <h3>Portrait photography</h3>
+        <img src={fTShirtFront} alt="model portrait"></img>
+        <img src={mTShirtFront} alt="model portrait"></img>
       </div>
     </>
   )
