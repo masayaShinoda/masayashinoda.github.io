@@ -15,8 +15,6 @@ import { withAssetPrefix } from "gatsby"
 const ContactPage = () => {
   return (
     <Layout>
-      <SEO title="Frontend Web Dev Portfolio" />
-      <h1 id="portfolio">Frontend Web Design & Development</h1>
       <WebDev></WebDev>
     </Layout>
   )

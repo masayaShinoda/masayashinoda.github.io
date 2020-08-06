@@ -36,7 +36,10 @@ const Layout = ({ children }) => {
   return (
     <div className="parent">
       <Helmet>
-        <meta name="description" content="testing react helmet" />
+        <meta
+          name="description"
+          content="Web/Graphics Designer based in Phnom Penh, Cambodia."
+        />
         <meta
           name="keywords"
           content="web designer, web developer, graphics designer, cambodia, phnom penh, graphics designer cambodia, graphics designer phnom penh, web design phnom penh, web design cambodia, web developer cambodia, web developer phnom penh"

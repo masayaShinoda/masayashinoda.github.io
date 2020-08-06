@@ -2,6 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Backbutton from "./backbutton"
 
 //styles import
 import "./styles.css"
@@ -17,6 +18,9 @@ import masayaPhotoMobile from "../images/masayaphoto-mobile.jpg"
 const WebDev = () => {
   return (
     <>
+      <SEO title="Frontend Web Dev Portfolio" />
+      <Backbutton />
+      <h1 id="portfolio">Frontend Web Design & Development</h1>
       <div className="item-container">
         <Link to="https://wis-journal.com" style={{ margin: `0` }}>
           <h2>wis-journal.com</h2>

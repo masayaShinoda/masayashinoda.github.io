@@ -2,6 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import Layout from "./layout"
 import SEO from "./seo"
+import Backbutton from "./backbutton"
 
 //styles import
 import "./styles.css"
@@ -19,9 +20,12 @@ import shirtBack from "../images/flower-on-fabric.jpg"
 import mTShirtFront from "../images/m-soulmate.jpg"
 import fTShirtFront from "../images/f-soulmate-black.jpg"
 
-const WebDev = () => {
+const GfxDesign = () => {
   return (
     <>
+      <SEO title="Graphic Design Portfolio" />
+      <Backbutton />
+      <h1 id="portfolio">Graphic Design</h1>
       <div className="item-container">
         <h2>Yomie's Rice X Yogurt Cambodia</h2>
         <p>
@@ -58,4 +62,4 @@ const WebDev = () => {
   )
 }
 
-export default WebDev
+export default GfxDesign

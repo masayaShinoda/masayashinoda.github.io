@@ -16,7 +16,7 @@ const ContactPage = () => {
   return (
     <Layout>
       <SEO title="Graphic Design Portfolio" />
-      <h1 id="portfolio">Graphic Design</h1>
+
       <GfxDesign></GfxDesign>
     </Layout>
   )
