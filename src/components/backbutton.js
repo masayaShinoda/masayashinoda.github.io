@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faHome } from "@fortawesome/free-solid-svg-icons"
+import { faArrowLeft } from "@fortawesome/free-solid-svg-icons"
 
 class Backbutton extends React.Component {
   constructor() {
@@ -19,6 +19,7 @@ class Backbutton extends React.Component {
       padding: `0.35em 0.8em`,
       background: `#244979`,
       fontSize: `1.4em`,
+      boxShadow: `2px 4px 5px rgba(0,0,0,.25)`,
     }
     const buttonHover = () => {
       var backButton = document.getElementById("backButton")
@@ -38,7 +39,7 @@ class Backbutton extends React.Component {
         style={buttonStyles}
       >
         <FontAwesomeIcon
-          icon={faHome}
+          icon={faArrowLeft}
           style={{ fontSize: `0.8em`, marginRight: `.5em` }}
         />
         Back

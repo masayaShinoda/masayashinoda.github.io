@@ -7,6 +7,8 @@ import Backbutton from "./backbutton"
 //styles import
 import "./styles.css"
 
+import portfItems from "./portfolioItems.module.css"
+
 //images assets import
 import wisJournalDesktop from "../images/wis-journal-desktop.jpg"
 import wisJournalMobile from "../images/wis-journal-mobile.jpg"
@@ -20,16 +22,18 @@ const WebDev = () => {
     <>
       <SEO title="Frontend Web Dev Portfolio" />
       <Backbutton />
-      <h1 id="portfolio">Frontend Web Design & Development</h1>
+      <h1 className={portfItems.workTitle} id="portfolio">
+        Frontend Web Design & Development
+      </h1>
       <div className="item-container">
         <Link to="https://wis-journal.com" style={{ margin: `0` }}>
-          <h2>wis-journal.com</h2>
+          <h2 className={portfItems.itemTitle}>wis-journal.com</h2>
         </Link>
         <p>
           A student newspaper with functionality for email/Google account
           sign-in which allows people to post content by themselves.
         </p>
-        <h3>Features:</h3>
+        <h3 className={portfItems.itemHeader}>Features:</h3>
         <ul>
           <li>Easy sign-up and login available at /admin</li>
           <li>Simple and organized newspaper-style layout.</li>
@@ -53,10 +57,10 @@ const WebDev = () => {
       </div>
       <div className="item-container">
         <Link to="https://masayablog.netlify.app" style={{ margin: `0` }}>
-          <h2>Personal blog</h2>
+          <h2 className={portfItems.itemTitle}>Personal blog</h2>
         </Link>
         <p>Blog site built with GatsbyJS with articles written in markdown.</p>
-        <h3>Features:</h3>
+        <h3 className={portfItems.itemHeader}>Features:</h3>
         <ul>
           <li>Typography focused</li>
           <li>
@@ -83,10 +87,10 @@ const WebDev = () => {
       </div>
       <div className="item-container">
         <Link to="https://masayaphoto.netlify.app" style={{ margin: `0` }}>
-          <h2>Photography portfolio</h2>
+          <h2 className={portfItems.itemTitle}>Photography portfolio</h2>
         </Link>
         <p>Personal photography showcase website.</p>
-        <h3>Features:</h3>
+        <h3 className={portfItems.itemHeader}>Features:</h3>
         <ul>
           <li>Fast loading</li>
           <li>Gallery style zoom</li>

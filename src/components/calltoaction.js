@@ -10,7 +10,9 @@ const calltoaction = () => {
       <div className="upperCallBackgroundImage"></div>
       <div className="upperCall">
         <Link to="/portfolio#portfolio">
-          <button>See my work</button>
+          <button style={{ boxShadow: `2px 4px 5px rgba(0,0,0,.25)` }}>
+            See my work
+          </button>
         </Link>
       </div>
     </div>

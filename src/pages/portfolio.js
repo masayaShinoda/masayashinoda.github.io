@@ -19,13 +19,17 @@ const PortfolioPage = () => {
       <div className={portfStyles.portfUpperCallBg}></div>
       <div className={portfStyles.portfUpperCall} id="portfolio">
         <Link to="/gfxdesign#portfolio">
-          <button>Graphic Design</button>
+          <button style={{ boxShadow: `2px 4px 5px rgba(0,0,0,.25)` }}>
+            Graphic Design
+          </button>
         </Link>
       </div>
       <div className={portfStyles.portfLowerCallBg}></div>
       <div className={portfStyles.portfLowerCall}>
         <Link to="/webdev#portfolio">
-          <button>Frontend Web Development</button>
+          <button style={{ boxShadow: `2px 4px 5px rgba(0,0,0,.25)` }}>
+            Frontend Web Development
+          </button>
         </Link>
       </div>
     </PortfLayout>
