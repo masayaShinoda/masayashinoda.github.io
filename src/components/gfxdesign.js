@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 import Layout from "./layout"
 import SEO from "./seo"
 import Backbutton from "./backbutton"
+import GoUpButton from "./goupbutton"
 
 //styles import
 import "./styles.css"
@@ -26,6 +27,7 @@ const GfxDesign = () => {
     <>
       <SEO title="Graphic Design Portfolio" />
       <Backbutton />
+      <GoUpButton />
       <h1 className={portfItems.workTitle} id="portfolio">
         Graphic Design
       </h1>

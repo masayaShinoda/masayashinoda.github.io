@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Backbutton from "./backbutton"
+import GoUpButton from "./goupbutton"
 
 //styles import
 import "./styles.css"
@@ -22,6 +23,7 @@ const WebDev = () => {
     <>
       <SEO title="Frontend Web Dev Portfolio" />
       <Backbutton />
+      <GoUpButton />
       <h1 className={portfItems.workTitle} id="portfolio">
         Frontend Web Design & Development
       </h1>
