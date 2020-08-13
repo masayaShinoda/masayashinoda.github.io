@@ -113,8 +113,6 @@ body {
       right: 40vw;
       background: $clr-primary;
 
-      //border: 1px solid red; //debug
-
       //font color
       h1,
       p,
@@ -133,7 +131,7 @@ body {
         width: 70%;
         padding-right: 1.25vmax;
         margin-top: 15vh;
-        //border: 2px solid green; //debug
+        // border: 2px solid green; //debug
       }
       //footer
       .margins-bottom {
@@ -149,6 +147,9 @@ body {
           footer {
             display: flex;
             flex-direction: column;
+            p {
+              font-size: 16px;
+            }
             a {
               p,
               i {
@@ -216,10 +217,11 @@ body {
           //border: 2px solid blue; //debug
         }
         .margins-bottom {
-          //border: 2px solid yellow; //debug
+          // border: 2px solid yellow; //debug
           width: 100%;
           div {
             width: 90%;
+            // border: 2px solid orange; //debug
           }
         }
       }

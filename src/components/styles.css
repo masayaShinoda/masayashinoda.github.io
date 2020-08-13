@@ -183,6 +183,10 @@ body .parent .layout-left .margins-bottom div footer {
           flex-direction: column;
 }
 
+body .parent .layout-left .margins-bottom div footer p {
+  font-size: 16px;
+}
+
 body .parent .layout-left .margins-bottom div footer a p,
 body .parent .layout-left .margins-bottom div footer a i {
   font-size: 14px;
