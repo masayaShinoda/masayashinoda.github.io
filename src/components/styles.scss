@@ -148,7 +148,7 @@ body {
             display: flex;
             flex-direction: column;
             p {
-              font-size: 16px;
+              font-size: 14px;
             }
             a {
               p,
@@ -215,6 +215,24 @@ body {
         .margins {
           width: 90%;
           //border: 2px solid blue; //debug
+          h1 {
+            font-size: 24px;
+            margin-bottom: 2.5vh;
+          }
+          h2 {
+            font-size: 18px;
+          }
+          h3 {
+            font-size: 16px;
+            margin-bottom: 0.4em;
+          }
+          p {
+            font-size: 16px;
+            line-height: 1.4;
+          }
+          a {
+            font-size: 16px;
+          }
         }
         .margins-bottom {
           // border: 2px solid yellow; //debug

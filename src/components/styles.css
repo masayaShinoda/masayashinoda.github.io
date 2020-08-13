@@ -184,7 +184,7 @@ body .parent .layout-left .margins-bottom div footer {
 }
 
 body .parent .layout-left .margins-bottom div footer p {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 body .parent .layout-left .margins-bottom div footer a p,
@@ -249,6 +249,24 @@ body .parent .layout-right ul li {
 @media (max-width: 1023px) {
   body .parent .layout-left .margins {
     width: 90%;
+  }
+  body .parent .layout-left .margins h1 {
+    font-size: 24px;
+    margin-bottom: 2.5vh;
+  }
+  body .parent .layout-left .margins h2 {
+    font-size: 18px;
+  }
+  body .parent .layout-left .margins h3 {
+    font-size: 16px;
+    margin-bottom: 0.4em;
+  }
+  body .parent .layout-left .margins p {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+  body .parent .layout-left .margins a {
+    font-size: 16px;
   }
   body .parent .layout-left .margins-bottom {
     width: 100%;
