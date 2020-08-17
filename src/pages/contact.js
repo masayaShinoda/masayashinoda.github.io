@@ -17,6 +17,7 @@ const ContactPage = () => {
     <Layout>
       <SEO title="Contact" />
       <h1 id="contact">Contact me:</h1>
+      <p>Here are some ways we can discuss your next project together.</p>
       <section style={{ display: `flex` }}>
         <div
           className="social-link-container"

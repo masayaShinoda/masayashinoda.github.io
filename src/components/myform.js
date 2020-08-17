@@ -27,12 +27,19 @@ export default class MyForm extends React.Component {
         <label>
           <p>Email:</p>
         </label>
-        <input type="email" name="email" />
+        <input
+          placeholder="Please enter your email address"
+          type="email"
+          name="email"
+        />
         <label>
           <p>Message:</p>
         </label>
         <div style={{ display: `flex`, flexDirection: `column` }}>
-          <textarea name="message"></textarea>
+          <textarea
+            name="message"
+            placeholder="Briefly describe what project you have in mind!"
+          ></textarea>
           {status === "SUCCESS" ? <p>Thanks!</p> : <button>Submit</button>}
           {status === "ERROR" && <p>Ooops! There was an error.</p>}
         </div>

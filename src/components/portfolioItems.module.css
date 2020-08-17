@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Jacques+Francois&family=Marcellus&family=Martel:wght@400;600;700;900&display=swap");
 .workTitle {
   font-size: 2.5em !important;
+  word-wrap: normal;
   font-variant-caps: small-caps;
   letter-spacing: 4px;
   word-spacing: 8px;

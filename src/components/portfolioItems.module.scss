@@ -17,6 +17,7 @@ $mobile-bp: 480px;
 .workTitle {
   //the "GRAPHIC DESIGN" or "FRONTEND DEVELOPMENT" headings
   font-size: 2.5em !important;
+  word-wrap: normal;
   font-variant-caps: small-caps;
   letter-spacing: 4px;
   word-spacing: 8px;

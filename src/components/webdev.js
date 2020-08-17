@@ -25,7 +25,7 @@ const WebDev = () => {
       <Backbutton />
       <GoUpButton />
       <h1 className={portfItems.workTitle} id="portfolio">
-        Frontend Web Design & Development
+        Frontend Web Development
       </h1>
       <div className="item-container">
         <Link to="https://wis-journal.com" style={{ margin: `0` }}>
