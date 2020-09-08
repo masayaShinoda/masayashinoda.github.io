@@ -58,7 +58,7 @@ const WebDev = () => {
         </Link>
       </div>
       <div className="item-container">
-        <Link to="https://masayablog.netlify.app" style={{ margin: `0` }}>
+        <Link to="https://blog.masayashida.xyz" style={{ margin: `0` }}>
           <h2 className={portfItems.itemTitle}>Personal blog</h2>
         </Link>
         <p>Blog site built with GatsbyJS with articles written in markdown.</p>
@@ -72,14 +72,14 @@ const WebDev = () => {
           <li>Night mode</li>
           <li>Fully responsive</li>
         </ul>
-        <Link to="https://masayablog.netlify.app" style={{ margin: `0` }}>
+        <Link to="https://blog.masayashida.xyz" style={{ margin: `0` }}>
           <img
             className="showcaseDesktop"
             src={masayaBlogDesktop}
             alt="Personal blog portfolio item showcase"
           ></img>
         </Link>
-        <Link to="https://masayablog.netlify.app" style={{ margin: `0` }}>
+        <Link to="https://blog.masayashida.xyz" style={{ margin: `0` }}>
           <img
             className="showcaseMobile"
             src={masayaBlogMobile}
@@ -88,7 +88,7 @@ const WebDev = () => {
         </Link>
       </div>
       <div className="item-container">
-        <Link to="https://masayaphoto.netlify.app" style={{ margin: `0` }}>
+        <Link to="https://photos.masayashida.xyz" style={{ margin: `0` }}>
           <h2 className={portfItems.itemTitle}>Photography portfolio</h2>
         </Link>
         <p>Personal photography showcase website.</p>
@@ -98,14 +98,14 @@ const WebDev = () => {
           <li>Gallery style zoom</li>
           <li>Fully responsive</li>
         </ul>
-        <Link to="https://masayaphoto.netlify.app" style={{ margin: `0` }}>
+        <Link to="https://photos.masayashida.xyz" style={{ margin: `0` }}>
           <img
             className="showcaseDesktop"
             src={masayaPhotoDesktop}
             alt="Personal blog portfolio item showcase"
           ></img>
         </Link>
-        <Link to="https://masayaphoto.netlify.app" style={{ margin: `0` }}>
+        <Link to="https://photos.masayashida.xyz" style={{ margin: `0` }}>
           <img
             className="showcaseMobile"
             src={masayaPhotoMobile}

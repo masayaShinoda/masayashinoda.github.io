@@ -38,11 +38,17 @@ const Header = ({ siteTitle }) => {
       </p>
       <nav>
         <Link to="/portfolio#portfolio">
-          <FontAwesomeIcon icon={faUser} />
+          <FontAwesomeIcon
+            icon={faUser}
+            style={{ fontSize: `18px`, maxWidth: `18px` }}
+          />
           <p>Portfolio</p>
         </Link>
         <Link to="/contact#contact">
-          <FontAwesomeIcon icon={faAddressCard} />
+          <FontAwesomeIcon
+            icon={faAddressCard}
+            style={{ fontSize: `18px`, maxWidth: `18px` }}
+          />
           <p>Contact</p>
         </Link>
       </nav>
