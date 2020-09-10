@@ -13,6 +13,7 @@ import portfItems from "./portfolioItems.module.css"
 //images assets import
 import baristaHiring from "../images/hiring-barista_widescreen.jpg"
 import strawberryPromo from "../images/top-9-drinks-3-03.jpg"
+import melonPromo from "../images/KHMER-top-9-drinks-2-02.jpg"
 import softOpening from "../images/soft-opening.jpg"
 import showcaseBusinessCard from "../images/showcase-business-card.jpg"
 import tShirtHanging from "../images/black-t-shirt-showcase.jpg"
@@ -44,6 +45,7 @@ const GfxDesign = () => {
           src={strawberryPromo}
           alt="Yomies Cambodia soft opening poster"
         ></img>
+        <img src={melonPromo} alt="Khmer promo material"></img>
         <img src={softOpening} alt="Yomies Cambodia soft opening poster"></img>
         <br></br>
         <h3 className={portfItems.itemHeader}>Print work</h3>
