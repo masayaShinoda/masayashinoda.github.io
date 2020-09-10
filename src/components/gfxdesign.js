@@ -12,7 +12,7 @@ import portfItems from "./portfolioItems.module.css"
 
 //images assets import
 import baristaHiring from "../images/hiring-barista_widescreen.jpg"
-import softOpening3 from "../images/soft-opening-countdown_3.jpg"
+import strawberryPromo from "../images/top-9-drinks-3-03.jpg"
 import softOpening from "../images/soft-opening.jpg"
 import showcaseBusinessCard from "../images/showcase-business-card.jpg"
 import tShirtHanging from "../images/black-t-shirt-showcase.jpg"
@@ -40,7 +40,10 @@ const GfxDesign = () => {
         <p>Works include:</p>
         <h3 className={portfItems.itemHeader}>Social media content</h3>
         <img src={baristaHiring} alt="Yomies Cambodia hiring poster"></img>
-        <img src={softOpening3} alt="Yomies Cambodia soft opening poster"></img>
+        <img
+          src={strawberryPromo}
+          alt="Yomies Cambodia soft opening poster"
+        ></img>
         <img src={softOpening} alt="Yomies Cambodia soft opening poster"></img>
         <br></br>
         <h3 className={portfItems.itemHeader}>Print work</h3>
