@@ -470,7 +470,8 @@ form {
     }
   }
   .tele-link,
-  .ig-link {
+  .ig-link,
+  .linkedin-link {
     transition: 0.2s background ease-in-out;
   }
   .tele-link:hover {
@@ -478,6 +479,9 @@ form {
   }
   .ig-link:hover {
     background: saturate(#d5288d, 25%);
+  }
+  .linkedin-link:hover {
+    background: lighten(#0077b5, 5%);
   }
 }
 

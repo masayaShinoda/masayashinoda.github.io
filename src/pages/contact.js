@@ -10,6 +10,7 @@ import "../components/styles.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faPaperPlane } from "@fortawesome/free-solid-svg-icons"
 import { faInstagram } from "@fortawesome/free-brands-svg-icons"
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons"
 import { withAssetPrefix } from "gatsby"
 
 const ContactPage = () => {
@@ -43,6 +44,19 @@ const ContactPage = () => {
           >
             <FontAwesomeIcon icon={faInstagram} />
             <p style={{ color: `#f5f5f5`, border: `0` }}>Instagram</p>
+          </a>
+        </div>
+        <div
+          className="social-link-container"
+          style={{ background: `#0077B5`, marginTop: `2.5vmax` }}
+        >
+          <a
+            href="https://www.linkedin.com/in/masaya-shida"
+            className="linkedin-link"
+            style={{ color: `#f5f5f5` }}
+          >
+            <FontAwesomeIcon icon={faLinkedin} />
+            <p style={{ color: `#f5f5f5`, border: `0` }}>Linkedin</p>
           </a>
         </div>
       </section>

@@ -529,7 +529,8 @@ form textarea:focus {
 }
 
 .social-link-container .tele-link,
-.social-link-container .ig-link {
+.social-link-container .ig-link,
+.social-link-container .linkedin-link {
   -webkit-transition: 0.2s background ease-in-out;
   transition: 0.2s background ease-in-out;
 }
@@ -540,6 +541,10 @@ form textarea:focus {
 
 .social-link-container .ig-link:hover {
   background: #f50892;
+}
+
+.social-link-container .linkedin-link:hover {
+  background: #0088cf;
 }
 
 .upperCall,
