@@ -11,6 +11,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faPaperPlane } from "@fortawesome/free-solid-svg-icons"
 import { faInstagram } from "@fortawesome/free-brands-svg-icons"
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons"
+import { faGithub } from "@fortawesome/free-brands-svg-icons"
 import { withAssetPrefix } from "gatsby"
 
 const ContactPage = () => {
@@ -18,8 +19,12 @@ const ContactPage = () => {
     <Layout>
       <SEO title="Contact" />
       <h1 id="contact">Contact me:</h1>
-      <p>Here are some ways we can discuss your next project together.</p>
-      <section style={{ display: `flex` }}>
+      <p style={{ margin: `0` }}>
+        Here are some ways we can discuss your next project together.
+      </p>
+      <section
+        style={{ display: `flex`, flexWrap: `wrap`, marginBottom: `2.5vmax` }}
+      >
         <div
           className="social-link-container"
           style={{ background: `#2AA1DE`, marginTop: `2.5vmax` }}
@@ -57,6 +62,19 @@ const ContactPage = () => {
           >
             <FontAwesomeIcon icon={faLinkedin} />
             <p style={{ color: `#f5f5f5`, border: `0` }}>Linkedin</p>
+          </a>
+        </div>
+        <div
+          className="social-link-container"
+          style={{ background: `#A349AF`, marginTop: `2.5vmax` }}
+        >
+          <a
+            href="https://github.com/masayaShinoda"
+            className="github-link"
+            style={{ color: `#f5f5f5` }}
+          >
+            <FontAwesomeIcon icon={faGithub} />
+            <p style={{ color: `#f5f5f5`, border: `0` }}>Github</p>
           </a>
         </div>
       </section>

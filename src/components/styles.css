@@ -513,7 +513,6 @@ form textarea:focus {
   max-width: -webkit-fit-content;
   max-width: -moz-fit-content;
   max-width: fit-content;
-  margin-bottom: 1.25vmax;
   margin-right: 1.75vmax;
   border: 1px solid #c4d7ed;
 }
@@ -530,7 +529,8 @@ form textarea:focus {
 
 .social-link-container .tele-link,
 .social-link-container .ig-link,
-.social-link-container .linkedin-link {
+.social-link-container .linkedin-link,
+.social-link-container .github-link {
   -webkit-transition: 0.2s background ease-in-out;
   transition: 0.2s background ease-in-out;
 }
@@ -545,6 +545,10 @@ form textarea:focus {
 
 .social-link-container .linkedin-link:hover {
   background: #0088cf;
+}
+
+.social-link-container .github-link:hover {
+  background: #bb2ace;
 }
 
 .upperCall,

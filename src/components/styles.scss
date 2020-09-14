@@ -457,7 +457,6 @@ form {
   display: flex;
   align-items: center;
   max-width: fit-content;
-  margin-bottom: 1.25vmax;
   margin-right: 1.75vmax;
   border: 1px solid $clr-white-darker;
 
@@ -471,7 +470,8 @@ form {
   }
   .tele-link,
   .ig-link,
-  .linkedin-link {
+  .linkedin-link,
+  .github-link {
     transition: 0.2s background ease-in-out;
   }
   .tele-link:hover {
@@ -482,6 +482,9 @@ form {
   }
   .linkedin-link:hover {
     background: lighten(#0077b5, 5%);
+  }
+  .github-link:hover {
+    background: saturate(#a349af, 25%);
   }
 }
 
