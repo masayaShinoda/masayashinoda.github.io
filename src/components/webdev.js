@@ -17,6 +17,7 @@ import masayaBlogDesktop from "../images/masayablog-desktop.png"
 import masayaBlogMobile from "../images/masayablog-mobile.png"
 import masayaPhotoDesktop from "../images/masayaphoto-desktop.jpg"
 import masayaPhotoMobile from "../images/masayaphoto-mobile.jpg"
+import gatsbyjsEcommerce from "../images/gatsbyjs-ecommerce.png"
 
 const WebDev = () => {
   return (
@@ -110,6 +111,35 @@ const WebDev = () => {
             className="showcaseMobile"
             src={masayaPhotoMobile}
             alt="Personal blog portfolio item showcase"
+          ></img>
+        </Link>
+      </div>
+      <div className="item-container">
+        <Link to="https://photos.masayashida.xyz" style={{ margin: `0` }}>
+          <h2 className={portfItems.itemTitle}>GatsbyJS E-commerce project</h2>
+        </Link>
+        <p>
+          E-commerce store built with GatsbyJS, sourcing content from DatoCMS
+          with payment handled by Snipcart.
+        </p>
+        <h3 className={portfItems.itemHeader}>Features:</h3>
+        <ul>
+          <li>Quick loading times</li>
+          <li>Fully responsive minimalistic design</li>
+          <li>Product inventory is managed using the DatoCMS dashboard</li>
+        </ul>
+        <Link to="https://photos.masayashida.xyz" style={{ margin: `0` }}>
+          <img
+            className="showcaseDesktop"
+            src={gatsbyjsEcommerce}
+            alt="Ecommerce site showcase"
+          ></img>
+        </Link>
+        <Link to="https://masayastore.netlify.app" style={{ margin: `0` }}>
+          <img
+            className="showcaseMobile"
+            src={gatsbyjsEcommerce}
+            alt="Ecommerce site showcase"
           ></img>
         </Link>
       </div>
