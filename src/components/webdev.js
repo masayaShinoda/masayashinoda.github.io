@@ -115,7 +115,7 @@ const WebDev = () => {
         </Link>
       </div>
       <div className="item-container">
-        <Link to="https://photos.masayashida.xyz" style={{ margin: `0` }}>
+        <Link to="https://masayastore.netlify.app" style={{ margin: `0` }}>
           <h2 className={portfItems.itemTitle}>GatsbyJS E-commerce project</h2>
         </Link>
         <p>
@@ -128,7 +128,7 @@ const WebDev = () => {
           <li>Fully responsive minimalistic design</li>
           <li>Product inventory is managed using the DatoCMS dashboard</li>
         </ul>
-        <Link to="https://photos.masayashida.xyz" style={{ margin: `0` }}>
+        <Link to="https://masayastore.netlify.app" style={{ margin: `0` }}>
           <img
             className="showcaseDesktop"
             src={gatsbyjsEcommerce}
