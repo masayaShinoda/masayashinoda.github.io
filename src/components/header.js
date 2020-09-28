@@ -1,6 +1,6 @@
+import React from "react"
 import { useStaticQuery, graphql, Link } from "gatsby"
 import PropTypes from "prop-types"
-import React from "react"
 
 //styles import
 import "./styles.css"

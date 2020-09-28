@@ -16,6 +16,48 @@
   border-bottom: 2px solid #666666;
 }
 
+.tech-used span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.tech-used span img {
+  padding: 0 0.5rem;
+}
+
+.tech-used .netlifyCMS {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 0.5rem;
+  background: #333;
+}
+
+.tech-used .reactJS,
+.tech-used .gatsbyJS {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tech-used .reactJS {
+  padding: 0;
+}
+
+.tech-used .datoCMS {
+  padding: 0;
+  margin: 0 0.5rem;
+}
+
 .item-header {
   font-family: "Marcellus", serif !important;
   font-size: 1.25em !important;

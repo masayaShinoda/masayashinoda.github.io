@@ -31,6 +31,35 @@ $mobile-bp: 480px;
   color: $clr-dark;
   border-bottom: 2px solid #666666;
 }
+.tech-used {
+  span {
+    display: flex;
+    flex-wrap: wrap;
+    img {
+      padding: 0 0.5rem;
+    }
+  }
+
+  .netlifyCMS {
+    width: fit-content;
+    height: fit-content;
+    padding: 0.5rem;
+    background: #333;
+    // border: 1px solid red; //debug
+  }
+  .reactJS,
+  .gatsbyJS {
+    display: flex;
+    align-items: center;
+  }
+  .reactJS {
+    padding: 0;
+  }
+  .datoCMS {
+    padding: 0;
+    margin: 0 0.5rem;
+  }
+}
 
 .item-header {
   font-family: $font-body !important;
