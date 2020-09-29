@@ -66,7 +66,7 @@ const WebDev = () => {
               className={portfItems.reactJS}
             >
               <img
-                src="https://www.vhv.rs/dpng/d/590-5903330_reactjs-logo-react-js-transparent-icon-hd-png.png"
+                src="https://logos-download.com/wp-content/uploads/2016/09/React_logo_wordmark.png"
                 style={{ margin: 0, height: `1.75rem` }}
                 alt="ReactJS logo"
               />
@@ -137,7 +137,7 @@ const WebDev = () => {
               className={portfItems.reactJS}
             >
               <img
-                src="https://www.vhv.rs/dpng/d/590-5903330_reactjs-logo-react-js-transparent-icon-hd-png.png"
+                src="https://logos-download.com/wp-content/uploads/2016/09/React_logo_wordmark.png"
                 style={{ margin: 0, height: `1.75rem` }}
                 alt="ReactJS logo"
               />
@@ -211,7 +211,7 @@ const WebDev = () => {
               className={portfItems.reactJS}
             >
               <img
-                src="https://www.vhv.rs/dpng/d/590-5903330_reactjs-logo-react-js-transparent-icon-hd-png.png"
+                src="https://logos-download.com/wp-content/uploads/2016/09/React_logo_wordmark.png"
                 style={{ margin: 0, height: `1.75rem` }}
                 alt="ReactJS logo"
               />
@@ -299,7 +299,7 @@ const WebDev = () => {
               className={portfItems.reactJS}
             >
               <img
-                src="https://www.vhv.rs/dpng/d/590-5903330_reactjs-logo-react-js-transparent-icon-hd-png.png"
+                src="https://logos-download.com/wp-content/uploads/2016/09/React_logo_wordmark.png"
                 style={{ margin: 0, height: `1.75rem` }}
                 alt="ReactJS logo"
               />
@@ -313,6 +313,17 @@ const WebDev = () => {
                 src="https://code.support/wp-content/uploads/2016/04/sass.png"
                 style={{ margin: 0, height: `1.75rem` }}
                 alt="SASS logo"
+              />
+            </div>
+            <div
+              title="GraphQL"
+              style={{ marginBottom: `0.8rem`, paddingLeft: 0 }}
+              className={portfItems.reactJS}
+            >
+              <img
+                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmiro.medium.com%2Fmax%2F1000%2F1*RHQ7lpGDV_M3yWRa9DiR2g.png&f=1&nofb=1"
+                style={{ margin: 0, height: `1.75rem` }}
+                alt="GraphQL"
               />
             </div>
           </span>
