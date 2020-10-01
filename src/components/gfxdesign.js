@@ -11,7 +11,6 @@ import "./styles.css"
 import portfItems from "./portfolioItems.module.css"
 
 //images assets import
-import baristaHiring from "../images/hiring-barista_widescreen.jpg"
 import strawberryPromo from "../images/top-9-drinks-3-03.jpg"
 import melonPromo from "../images/KHMER-top-9-drinks-2-02.jpg"
 import softOpening from "../images/soft-opening.jpg"
@@ -40,16 +39,22 @@ const GfxDesign = () => {
         </p>
         <p>Works include:</p>
         <h3 className={portfItems.itemHeader}>Social media content</h3>
-        <img src={baristaHiring} alt="Yomies Cambodia hiring poster"></img>
+
         <img
+          loading="lazy"
           src={strawberryPromo}
           alt="Yomies Cambodia soft opening poster"
         ></img>
-        <img src={melonPromo} alt="Khmer promo material"></img>
-        <img src={softOpening} alt="Yomies Cambodia soft opening poster"></img>
+        <img loading="lazy" src={melonPromo} alt="Khmer promo material"></img>
+        <img
+          loading="lazy"
+          src={softOpening}
+          alt="Yomies Cambodia soft opening poster"
+        ></img>
         <br></br>
         <h3 className={portfItems.itemHeader}>Print work</h3>
         <img
+          loading="lazy"
           src={showcaseBusinessCard}
           alt="Yomies Cambodia business card"
         ></img>
@@ -58,14 +63,22 @@ const GfxDesign = () => {
         <h2 className={portfItems.itemTitle}>G-LVN</h2>
         <p>A small T-shirt business started with friends. Works include:</p>
         <h3 className={portfItems.itemHeader}>T-shirt design</h3>
-        <img src={tShirtHanging} alt="Soulmate T-shirt showcase"></img>
+        <img
+          loading="lazy"
+          src={tShirtHanging}
+          alt="Soulmate T-shirt showcase"
+        ></img>
         <h3 className={portfItems.itemHeader}>Sticker design</h3>
-        <img src={stickerShowcase} alt="Soulmate stickers"></img>
+        <img loading="lazy" src={stickerShowcase} alt="Soulmate stickers"></img>
         <h3 className={portfItems.itemHeader}>Social media content</h3>
-        <img src={gLvnFbCover} alt="G-LVN social media cover"></img>
+        <img
+          loading="lazy"
+          src={gLvnFbCover}
+          alt="G-LVN social media cover"
+        ></img>
         <h3 className={portfItems.itemHeader}>Portrait photography</h3>
-        <img src={fTShirtFront} alt="model portrait"></img>
-        <img src={mTShirtFront} alt="model portrait"></img>
+        <img loading="lazy" src={fTShirtFront} alt="model portrait"></img>
+        <img loading="lazy" src={mTShirtFront} alt="model portrait"></img>
       </div>
     </>
   )

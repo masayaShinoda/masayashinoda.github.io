@@ -54,6 +54,7 @@ const WebDev = () => {
             >
               <a href="https://www.netlifycms.org/">
                 <img
+                  loading="lazy"
                   src="https://d33wubrfki0l68.cloudfront.net/1f4ce04369d08e4f8c3a7ca30a11c4873fda2ae1/3cf4e/static/netlify-cms-logo-5a5d3304b7d2d77ea281363a71dcc970.svg"
                   style={{ margin: 0, height: `1.25rem` }}
                   alt="NetlifyCMS logo"
@@ -66,6 +67,7 @@ const WebDev = () => {
               className={portfItems.reactJS}
             >
               <img
+                loading="lazy"
                 src="https://logos-download.com/wp-content/uploads/2016/09/React_logo_wordmark.png"
                 style={{ margin: 0, height: `1.75rem` }}
                 alt="ReactJS logo"
@@ -77,6 +79,7 @@ const WebDev = () => {
               className={portfItems.reactJS}
             >
               <img
+                loading="lazy"
                 src="https://code.support/wp-content/uploads/2016/04/sass.png"
                 style={{ margin: 0, height: `1.75rem` }}
                 alt="SASS logo"
@@ -93,6 +96,7 @@ const WebDev = () => {
         </ul>
         <Link to="https://wis-journal.com" style={{ margin: `0` }}>
           <img
+            loading="lazy"
             className="showcaseDesktop"
             src={wisJournalDesktop}
             alt="wis-journal.com portfolio item showcase"
@@ -100,6 +104,7 @@ const WebDev = () => {
         </Link>
         <Link to="https://wis-journal.com" style={{ margin: `0` }}>
           <img
+            loading="lazy"
             className="showcaseMobile"
             src={wisJournalMobile}
             alt="wis-journal.com portfolio item showcase"
@@ -125,6 +130,7 @@ const WebDev = () => {
             >
               <a href="https://www.gatsbyjs.org/">
                 <img
+                  loading="lazy"
                   src="https://www.drupal.org/files/Gatsby_Logo.png"
                   style={{ margin: 0, height: `1.25rem` }}
                   alt="GatsbyJS logo"
@@ -137,6 +143,7 @@ const WebDev = () => {
               className={portfItems.reactJS}
             >
               <img
+                loading="lazy"
                 src="https://logos-download.com/wp-content/uploads/2016/09/React_logo_wordmark.png"
                 style={{ margin: 0, height: `1.75rem` }}
                 alt="ReactJS logo"
@@ -148,6 +155,7 @@ const WebDev = () => {
               className={portfItems.reactJS}
             >
               <img
+                loading="lazy"
                 src="https://code.support/wp-content/uploads/2016/04/sass.png"
                 style={{ margin: 0, height: `1.75rem` }}
                 alt="SASS logo"
@@ -167,6 +175,7 @@ const WebDev = () => {
         </ul>
         <Link to="https://blog.masayashida.xyz" style={{ margin: `0` }}>
           <img
+            loading="lazy"
             className="showcaseDesktop"
             src={masayaBlogDesktop}
             alt="Personal blog portfolio item showcase"
@@ -174,6 +183,7 @@ const WebDev = () => {
         </Link>
         <Link to="https://blog.masayashida.xyz" style={{ margin: `0` }}>
           <img
+            loading="lazy"
             className="showcaseMobile"
             src={masayaBlogMobile}
             alt="Personal blog portfolio item showcase"
@@ -199,6 +209,7 @@ const WebDev = () => {
             >
               <a href="https://www.gatsbyjs.org/">
                 <img
+                  loading="lazy"
                   src="https://www.drupal.org/files/Gatsby_Logo.png"
                   style={{ margin: 0, height: `1.25rem` }}
                   alt="NetlifyCMS logo"
@@ -211,6 +222,7 @@ const WebDev = () => {
               className={portfItems.reactJS}
             >
               <img
+                loading="lazy"
                 src="https://logos-download.com/wp-content/uploads/2016/09/React_logo_wordmark.png"
                 style={{ margin: 0, height: `1.75rem` }}
                 alt="ReactJS logo"
@@ -222,6 +234,7 @@ const WebDev = () => {
               className={portfItems.reactJS}
             >
               <img
+                loading="lazy"
                 src="https://code.support/wp-content/uploads/2016/04/sass.png"
                 style={{ margin: 0, height: `1.75rem` }}
                 alt="SASS logo"
@@ -237,6 +250,7 @@ const WebDev = () => {
         </ul>
         <Link to="https://photos.masayashida.xyz" style={{ margin: `0` }}>
           <img
+            loading="lazy"
             className="showcaseDesktop"
             src={masayaPhotoDesktop}
             alt="Personal blog portfolio item showcase"
@@ -244,6 +258,7 @@ const WebDev = () => {
         </Link>
         <Link to="https://photos.masayashida.xyz" style={{ margin: `0` }}>
           <img
+            loading="lazy"
             className="showcaseMobile"
             src={masayaPhotoMobile}
             alt="Personal blog portfolio item showcase"
@@ -272,6 +287,7 @@ const WebDev = () => {
             >
               <a href="https://www.gatsbyjs.org/">
                 <img
+                  loading="lazy"
                   src="https://www.drupal.org/files/Gatsby_Logo.png"
                   style={{ margin: 0, height: `1.25rem` }}
                   alt="GatsbyJS logo"
@@ -287,6 +303,7 @@ const WebDev = () => {
             >
               <a href="https://www.datocms.com/">
                 <img
+                  loading="lazy"
                   src="https://cdn.worldvectorlogo.com/logos/datocms-1.svg"
                   style={{ margin: 0, height: `1.25rem` }}
                   alt="DatoCMS logo"
@@ -299,6 +316,7 @@ const WebDev = () => {
               className={portfItems.reactJS}
             >
               <img
+                loading="lazy"
                 src="https://logos-download.com/wp-content/uploads/2016/09/React_logo_wordmark.png"
                 style={{ margin: 0, height: `1.75rem` }}
                 alt="ReactJS logo"
@@ -310,6 +328,7 @@ const WebDev = () => {
               className={portfItems.reactJS}
             >
               <img
+                loading="lazy"
                 src="https://code.support/wp-content/uploads/2016/04/sass.png"
                 style={{ margin: 0, height: `1.75rem` }}
                 alt="SASS logo"
@@ -321,6 +340,7 @@ const WebDev = () => {
               className={portfItems.reactJS}
             >
               <img
+                loading="lazy"
                 src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmiro.medium.com%2Fmax%2F1000%2F1*RHQ7lpGDV_M3yWRa9DiR2g.png&f=1&nofb=1"
                 style={{ margin: 0, height: `1.75rem` }}
                 alt="GraphQL"
@@ -336,6 +356,7 @@ const WebDev = () => {
         </ul>
         <Link to="https://masayastore.netlify.app" style={{ margin: `0` }}>
           <img
+            loading="lazy"
             className="showcaseDesktop"
             src={gatsbyjsEcommerce}
             alt="Ecommerce site showcase"
@@ -343,6 +364,7 @@ const WebDev = () => {
         </Link>
         <Link to="https://masayastore.netlify.app" style={{ margin: `0` }}>
           <img
+            loading="lazy"
             className="showcaseMobile"
             src={gatsbyjsEcommerce}
             alt="Ecommerce site showcase"

@@ -5,9 +5,6 @@ import PortfLayout from "../components/portf-layout"
 import SEO from "../components/seo"
 import MyForm from "../components/myform"
 
-//portfolio items import
-import WebDev from "../components/webdev"
-import portfolioImage from "../images/portfoliopage-image.png"
 //styles import
 // import "../components/styles.css"
 import portfStyles from "../components/portfolioStyles.module.css"
