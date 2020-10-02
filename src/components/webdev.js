@@ -166,10 +166,7 @@ const WebDev = () => {
         <h3 className={portfItems.itemHeader}>Features:</h3>
         <ul>
           <li>Typography focused</li>
-          <li>
-            Good SEO (around 4th-5th result on the first page of Google search
-            with certain keywords)
-          </li>
+          <li>Good SEO</li>
           <li>Night mode</li>
           <li>Fully responsive</li>
         </ul>
