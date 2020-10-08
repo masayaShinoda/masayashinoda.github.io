@@ -37,32 +37,32 @@ body .parent a {
 
 body .parent h1 {
   font-family: "Jacques Francois", serif;
-  font-size: 2.25em;
+  font-size: 2em;
   margin-bottom: 3.75vh;
 }
 
 body .parent h2 {
   font-family: "Martel", serif;
-  font-size: 1.31em;
+  font-size: 1.25em;
 }
 
 body .parent h3 {
   font-family: "Martel", serif;
   font-weight: 800;
-  font-size: 1.13em;
+  font-size: 1em;
   margin-bottom: 0.8em;
 }
 
 body .parent p {
   font-family: "Marcellus", serif;
-  font-size: 1.13em;
+  font-size: 1em;
   line-height: 1.4;
 }
 
 body .parent a {
   cursor: pointer;
   font-family: "Marcellus", serif;
-  font-size: 1.13em;
+  font-size: 1em;
 }
 
 @media (max-width: 680px) {
@@ -82,6 +82,29 @@ body .parent a {
   }
   body .parent a {
     font-size: 1em;
+  }
+}
+
+@media (min-height: 1400px) {
+  body .parent h1 {
+    font-size: 3.25em;
+    margin-bottom: 3.75vh;
+  }
+  body .parent h2 {
+    font-size: 2em;
+  }
+  body .parent h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.8em;
+  }
+  body .parent p {
+    font-size: 1.5em;
+  }
+  body .parent a {
+    font-size: 1.5em;
+  }
+  body .parent i {
+    font-size: 1.5em;
   }
 }
 
@@ -212,7 +235,7 @@ body .parent .layout-left .margins-bottom div footer a i {
 }
 
 body .parent .layout-left .margins-bottom div footer nav {
-  margin-top: -1.25vmax;
+  margin-top: -0.85vmax;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -228,6 +251,16 @@ body .parent .layout-left .margins-bottom div footer nav {
   body .parent .layout-left .margins-bottom div footer a p,
   body .parent .layout-left .margins-bottom div footer a i {
     font-size: 0.63rem;
+  }
+}
+
+@media (min-height: 1400px) {
+  body .parent .layout-left .margins-bottom div footer p {
+    font-size: 1.25rem;
+  }
+  body .parent .layout-left .margins-bottom div footer a p,
+  body .parent .layout-left .margins-bottom div footer a i {
+    font-size: 1.25rem;
   }
 }
 

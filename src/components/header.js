@@ -40,14 +40,14 @@ const Header = ({ siteTitle }) => {
         <Link to="/portfolio#portfolio">
           <FontAwesomeIcon
             icon={faUser}
-            style={{ fontSize: `18px`, maxWidth: `18px` }}
+            // style={{ fontSize: `18px`, maxWidth: `2.5em` }}
           />
           <p>Portfolio</p>
         </Link>
         <Link to="/contact#contact">
           <FontAwesomeIcon
             icon={faAddressCard}
-            style={{ fontSize: `18px`, maxWidth: `18px` }}
+            // style={{ fontSize: `18px`, maxWidth: `2.5em` }}
           />
           <p>Contact</p>
         </Link>
