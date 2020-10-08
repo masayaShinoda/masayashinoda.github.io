@@ -12,7 +12,7 @@ $clr-white: #eef4fb;
 $clr-dark: #333333;
 $desktop-bp: 1024px;
 $tablet-bp: 1023px;
-$mobile-bp: 480px;
+$mobile-bp: 680px; //surface duo also mobile bp
 html {
   scroll-behavior: smooth;
 }
@@ -28,49 +28,65 @@ body {
     display: flex;
     min-height: 100vh; //debug
     //fonts
+    h1,
+    h2,
+    h3,
+    p,
+    a {
+      max-width: 65ch;
+    }
+    @media (max-width: $mobile-bp) {
+      h1,
+      h2,
+      h3,
+      p,
+      a {
+        max-width: 35ch;
+      }
+    }
     h1 {
       font-family: $font-heading;
-      font-size: 36px;
+      font-size: 2.25em;
       margin-bottom: 3.75vh;
     }
     h2 {
       font-family: $font-subhead;
-      font-size: 21px;
+      font-size: 1.31em;
     }
     h3 {
       font-family: $font-subhead;
       font-weight: 800;
-      font-size: 18px;
+      font-size: 1.13em;
       margin-bottom: 0.8em;
     }
     p {
       font-family: $font-body;
-      font-size: 18px;
+      font-size: 1.13em;
       line-height: 1.4;
     }
     a {
       cursor: pointer;
       font-family: $font-body;
-      font-size: 18px;
+      font-size: 1.13em;
     }
     //fonts mobile
     @media (max-width: $mobile-bp) {
       h1 {
-        font-size: 28px;
+        font-size: 1.75em;
         margin-bottom: 3.75vh;
       }
       h2 {
-        font-size: 21px;
+        font-size: 1.31em;
       }
       h3 {
-        font-size: 16px;
+        font-size: 1em;
         margin-bottom: 0.8em;
       }
       p {
-        font-size: 16px;
+        font-size: 1em;
       }
       a {
-        font-size: 16px;
+        font-size: 1em;
       }
     }
     //link
@@ -148,21 +164,37 @@ body {
             display: flex;
             flex-direction: column;
             p {
-              font-size: 14px;
+              font-size: 0.69rem;
             }
             a {
               p,
               i {
-                font-size: 14px;
+                font-size: 0.69rem;
                 border: 0;
               }
             }
             nav {
-              margin-top: -0.75vmax;
+              margin-top: -1.25vmax;
               display: flex;
               align-items: center;
             }
+            @media (max-width: $tablet-bp) {
+              p {
+                font-size: 0.63rem;
+              }
+              a {
+                p,
+                i {
+                  font-size: 0.63rem;
+                }
+              }
+            }
           }
+        }
+      }
+      @media (max-width: $tablet-bp) {
+        .margins-bottom {
+          height: 15%;
         }
       }
     }
@@ -216,22 +248,22 @@ body {
           width: 90%;
           //border: 2px solid blue; //debug
           h1 {
-            font-size: 24px;
+            font-size: 1.5em;
             margin-bottom: 2.5vh;
           }
           h2 {
-            font-size: 18px;
+            font-size: 1.13em;
           }
           h3 {
-            font-size: 16px;
+            font-size: 1em;
             margin-bottom: 0.4em;
           }
           p {
-            font-size: 16px;
+            font-size: 1em;
             line-height: 1.4;
           }
           a {
-            font-size: 16px;
+            font-size: 1em;
           }
         }
         .margins-bottom {
@@ -515,7 +547,7 @@ form {
   align-items: center;
   transition: background 0.2s ease-in-out;
   button {
-    padding: 2vmin 3vmin;
+    padding: 2.75vmin 3.25vmin;
     background: 0;
     border: 0;
     // background: rgba(0, 0, 0, 0.25);

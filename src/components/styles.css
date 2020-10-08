@@ -17,53 +17,71 @@ body .parent {
   min-height: 100vh;
 }
 
+body .parent h1,
+body .parent h2,
+body .parent h3,
+body .parent p,
+body .parent a {
+  max-width: 65ch;
+}
+
+@media (max-width: 680px) {
+  body .parent h1,
+  body .parent h2,
+  body .parent h3,
+  body .parent p,
+  body .parent a {
+    max-width: 35ch;
+  }
+}
+
 body .parent h1 {
   font-family: "Jacques Francois", serif;
-  font-size: 36px;
+  font-size: 2.25em;
   margin-bottom: 3.75vh;
 }
 
 body .parent h2 {
   font-family: "Martel", serif;
-  font-size: 21px;
+  font-size: 1.31em;
 }
 
 body .parent h3 {
   font-family: "Martel", serif;
   font-weight: 800;
-  font-size: 18px;
+  font-size: 1.13em;
   margin-bottom: 0.8em;
 }
 
 body .parent p {
   font-family: "Marcellus", serif;
-  font-size: 18px;
+  font-size: 1.13em;
   line-height: 1.4;
 }
 
 body .parent a {
   cursor: pointer;
   font-family: "Marcellus", serif;
-  font-size: 18px;
+  font-size: 1.13em;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 680px) {
   body .parent h1 {
-    font-size: 28px;
+    font-size: 1.75em;
     margin-bottom: 3.75vh;
   }
   body .parent h2 {
-    font-size: 21px;
+    font-size: 1.31em;
   }
   body .parent h3 {
-    font-size: 16px;
+    font-size: 1em;
     margin-bottom: 0.8em;
   }
   body .parent p {
-    font-size: 16px;
+    font-size: 1em;
   }
   body .parent a {
-    font-size: 16px;
+    font-size: 1em;
   }
 }
 
@@ -184,23 +202,39 @@ body .parent .layout-left .margins-bottom div footer {
 }
 
 body .parent .layout-left .margins-bottom div footer p {
-  font-size: 14px;
+  font-size: 0.69rem;
 }
 
 body .parent .layout-left .margins-bottom div footer a p,
 body .parent .layout-left .margins-bottom div footer a i {
-  font-size: 14px;
+  font-size: 0.69rem;
   border: 0;
 }
 
 body .parent .layout-left .margins-bottom div footer nav {
-  margin-top: -0.75vmax;
+  margin-top: -1.25vmax;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+@media (max-width: 1023px) {
+  body .parent .layout-left .margins-bottom div footer p {
+    font-size: 0.63rem;
+  }
+  body .parent .layout-left .margins-bottom div footer a p,
+  body .parent .layout-left .margins-bottom div footer a i {
+    font-size: 0.63rem;
+  }
+}
+
+@media (max-width: 1023px) {
+  body .parent .layout-left .margins-bottom {
+    height: 15%;
+  }
 }
 
 body .parent .layout-right {
@@ -251,22 +285,22 @@ body .parent .layout-right ul li {
     width: 90%;
   }
   body .parent .layout-left .margins h1 {
-    font-size: 24px;
+    font-size: 1.5em;
     margin-bottom: 2.5vh;
   }
   body .parent .layout-left .margins h2 {
-    font-size: 18px;
+    font-size: 1.13em;
   }
   body .parent .layout-left .margins h3 {
-    font-size: 16px;
+    font-size: 1em;
     margin-bottom: 0.4em;
   }
   body .parent .layout-left .margins p {
-    font-size: 16px;
+    font-size: 1em;
     line-height: 1.4;
   }
   body .parent .layout-left .margins a {
-    font-size: 16px;
+    font-size: 1em;
   }
   body .parent .layout-left .margins-bottom {
     width: 100%;
@@ -279,7 +313,7 @@ body .parent .layout-right ul li {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 680px) {
   body .parent .layout-left {
     -webkit-box-align: center;
         -ms-flex-align: center;
@@ -362,7 +396,7 @@ body .parent .layout-right ul li {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 680px) {
   body .parent {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -406,7 +440,7 @@ header nav {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 680px) {
   .showcaseDesktop {
     display: none;
   }
@@ -429,7 +463,7 @@ header nav {
   margin-top: 4.25vmax;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 680px) {
   .item-container {
     margin-top: 6.25vmax;
   }
@@ -449,7 +483,7 @@ form input[type="email"] {
   max-width: 100%;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 680px) {
   form input[type="email"] {
     width: 100%;
   }
@@ -588,7 +622,7 @@ form textarea:focus {
 }
 
 .upperCall button {
-  padding: 2vmin 3vmin;
+  padding: 2.75vmin 3.25vmin;
   background: 0;
   border: 0;
   background: #244979;
@@ -615,7 +649,7 @@ form textarea:focus {
   transition: background 0.2s ease-in-out;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 680px) {
   .upperCall {
     position: absolute;
     display: -webkit-box;
