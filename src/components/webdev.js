@@ -149,7 +149,7 @@ const WebDev = () => {
         <span className={portfItems.techUsed}>
           <p style={{ margin: `0 0 0.5rem 0` }}>Technologies used:</p>
           <span style={{ display: `flex`, alignItems: `center` }}>
-            <div
+            {/* <div
               title="NetlifyCMS"
               style={{
                 marginBottom: `0.8rem`,
@@ -164,6 +164,22 @@ const WebDev = () => {
                   src="https://d33wubrfki0l68.cloudfront.net/1f4ce04369d08e4f8c3a7ca30a11c4873fda2ae1/3cf4e/static/netlify-cms-logo-5a5d3304b7d2d77ea281363a71dcc970.svg"
                   style={{ margin: 0, height: `1.25rem` }}
                   alt="NetlifyCMS logo"
+                />
+              </a>
+            </div> */}
+            <div
+              title="DatoCMS"
+              style={{
+                marginBottom: `0.8rem`,
+              }}
+              className={portfItems.datoCMS}
+            >
+              <a href="https://www.datocms.com/">
+                <img
+                  loading="lazy"
+                  src="https://cdn.worldvectorlogo.com/logos/datocms-1.svg"
+                  style={{ margin: 0, height: `1.25rem` }}
+                  alt="DatoCMS logo"
                 />
               </a>
             </div>
