@@ -192,6 +192,7 @@ body .parent .layout-left .margins {
   width: 70%;
   padding-right: 1.25vmax;
   margin-top: 15vh;
+  padding-bottom: 4.25vh;
 }
 
 body .parent .layout-left .margins-bottom {
@@ -235,7 +236,7 @@ body .parent .layout-left .margins-bottom div footer a i {
 }
 
 body .parent .layout-left .margins-bottom div footer nav {
-  margin-top: -0.85vmax;
+  margin-top: -1.25vmax;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

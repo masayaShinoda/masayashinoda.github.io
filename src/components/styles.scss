@@ -173,6 +173,7 @@ body {
         width: 70%;
         padding-right: 1.25vmax;
         margin-top: 15vh;
+        padding-bottom: 4.25vh;
         // border: 2px solid green; //debug
       }
       //footer
@@ -182,6 +183,7 @@ body {
         background: $clr-secondary;
         display: flex;
         justify-content: flex-end;
+        // border: 2px solid blue; //debug
         div {
           width: 70%;
           margin-top: 0.75vmax;
@@ -200,7 +202,7 @@ body {
               }
             }
             nav {
-              margin-top: -0.85vmax;
+              margin-top: -1.25vmax;
               display: flex;
               align-items: center;
             }
