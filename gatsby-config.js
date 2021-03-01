@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Masaya Shida`,
     description: `Web & graphics designer based in Phnom Penh, Cambodia.`,
-    author: `Masaya Shinoda`,
+    author: `Masaya Shida`,
     siteUrl: `https://masayashida.xyz`,
     keywords: [
       `Masaya Shida`,
