@@ -11,9 +11,11 @@ import "./styles.css"
 import portfItems from "./portfolioItems.module.css"
 
 //images assets import
+import yeakKNY from "../images/yeaksa-khmer-new-year-01_result.jpg"
+import yeakROGM from "../images/rog-masters-csgo-01_result.jpg"
+import yeakPlaok from "../images/plaok-01_result.jpg"
 import strawberryPromo from "../images/top-9-drinks-3-03.jpg"
 import totePromo from "../images/totebag-notice-01.webp"
-import melonPromo from "../images/KHMER-top-9-drinks-2-02.jpg"
 import softOpening from "../images/soft-opening.jpg"
 import showcaseBusinessCard from "../images/showcase-business-card.jpg"
 import tShirtHanging from "../images/black-t-shirt-showcase.jpg"
@@ -33,14 +35,36 @@ const GfxDesign = () => {
         Graphic Design
       </h1>
       <div className="item-container">
+        <h2 className={portfItems.itemTitle}>Yeaksa Esports</h2>
+        <p>
+            A competitive esports organization startup I founded with friends. Below are examples of my work regarding social media content.
+        </p>
+        
+        
+        
+        <img
+          loading="lazy"
+          src={yeakKNY}
+          alt="Yeaksa Esports Khmer New Year poster"
+        ></img>
+        <img
+          loading="lazy"
+          src={yeakROGM}
+          alt="Yeaksa Esports ROG Masters poster"
+        ></img>
+        <img
+          loading="lazy"
+          src={yeakPlaok}
+          alt="Yeaksa Esports introduction poster"
+        ></img>
+      </div>
+      <div className="item-container">
         <h2 className={portfItems.itemTitle}>Yomie's Rice X Yogurt Cambodia</h2>
         <p>
           Digital and print design work for local yogurt and drinks shop in
           Phnom Penh, Cambodia.
         </p>
-        <p>Works include:</p>
         <h3 className={portfItems.itemHeader}>Social media content</h3>
-
         <img
           loading="lazy"
           src={strawberryPromo}
@@ -51,7 +75,6 @@ const GfxDesign = () => {
           src={totePromo}
           alt="Yomies Cambodia totebag promo"
         ></img>
-        <img loading="lazy" src={melonPromo} alt="Khmer promo material"></img>
         <img
           loading="lazy"
           src={softOpening}
