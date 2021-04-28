@@ -498,9 +498,6 @@ header nav {
 }
 
 .item-container img {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   max-height: 65vh;
   -o-object-fit: contain;
      object-fit: contain;

@@ -458,7 +458,7 @@ header {
   flex-direction: column;
   margin-top: 4.25vmax;
   //border: 1px solid red; //debug
-  img {display: flex; max-height: 65vh; object-fit: contain; object-position: left;}
+  img {max-height: 65vh; object-fit: contain; object-position: left;}
 }
 @media (max-width: $mobile-bp) {
   .item-container {
