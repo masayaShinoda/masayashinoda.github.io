@@ -497,6 +497,17 @@ header nav {
   margin-top: 4.25vmax;
 }
 
+.item-container img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-height: 65vh;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: left;
+     object-position: left;
+}
+
 @media (max-width: 680px) {
   .item-container {
     margin-top: 6.25vmax;
