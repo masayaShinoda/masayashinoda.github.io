@@ -120,6 +120,7 @@ const WebDev = () => {
         <ul>
           <li>Fast loading and responsive design</li>
           <li>Content dynamically sourced from DatoCMS</li>
+          <li>Good SEO (look it up yourself!)</li>
         </ul>
         <a href="https://yeaksa-esports.com" style={{ margin: `0` }}>
           <img
