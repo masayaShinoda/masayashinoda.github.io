@@ -11,6 +11,9 @@ import "./styles.css"
 import portfItems from "./portfolioItems.module.css"
 
 //images assets import
+import tmdRecLogoBlack from "../images/logo-with-bg-01.png"
+import jadyYoungCover from "../images/YOUNG-cover-03_result.jpg"
+import chuonNoMoreThumbnail from "../images/thumbnail-02_result.jpg"
 import yeakKNY from "../images/yeaksa-khmer-new-year-01_result.jpg"
 import yeakROGM from "../images/rog-masters-csgo-01_result.jpg"
 import yeakPlaok from "../images/plaok-01_result.jpg"
@@ -35,13 +38,31 @@ const GfxDesign = () => {
         Graphic Design
       </h1>
       <div className="item-container">
+        <h2 className={portfItems.itemTitle}>TMD Records</h2>
+        <p>
+            Graphic design and photography work for a team of young rappers, producers, writers, and composers based in Phnom Penh known as TMD Records.
+        </p>
+        <img
+          loading="lazy"
+          src={tmdRecLogoBlack}
+          alt="TMD Records Logo Black"
+        ></img>
+        <img
+          loading="lazy"
+          src={jadyYoungCover}
+          alt="Single cover for 'Young' by jady"
+        ></img>
+        <img
+          loading="lazy"
+          src={chuonNoMoreThumbnail}
+          alt="Single cover for 'No More' by CHUON"
+        ></img>
+      </div>
+      <div className="item-container">
         <h2 className={portfItems.itemTitle}>Yeaksa Esports</h2>
         <p>
             A competitive esports organization startup I founded with friends. Below are examples of my work regarding social media content.
         </p>
-        
-        
-        
         <img
           loading="lazy"
           src={yeakKNY}
